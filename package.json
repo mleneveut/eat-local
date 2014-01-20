@@ -1,0 +1,20 @@
+{
+    "name": "eat-local",
+    "description": "Coding Dojo #2",
+    "version": "0.0.1",
+    "private": true,
+    "author": "Ippon technologies",
+    "repository": {
+    "type": "git",
+        "url": "https://github.com/mleneveut/eat-local.git"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.3.x"
+    },
+    "dependencies": {
+        "mongoose": "~3.8.4",
+        "restify": "~2.6.1",
+        "underscore": "~1.5.2"
+    }
+}
