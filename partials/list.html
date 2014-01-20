@@ -1,0 +1,33 @@
+<h2>List</h2>
+
+<div>
+	Search: <input ng-model="query"><br />
+	Sort by:
+	<select ng-model="orderProp">
+		<option value="id">Id</option>
+		<option value="-id">Id (reverse)</option>
+		<option value="name">Name</option>
+		<option value="-name">Name (reverse)</option>
+		<option value="type">Type</option>
+		<option value="-type">Type (reverse)</option>
+	</select>
+</div>
+<br />
+<table border="1px solid black" cellpadding="5">
+	<tr>
+		<th>Identifiant</th>
+		<th>Nom</th>
+		<th>Type</th>
+		<th>Actions</th>
+	</tr>
+	<tr ng-repeat="producer in producers | filter:query | orderBy:orderProp">
+		<td>{{producer.id}}</td>
+		<td>{{producer.name}}</td>
+		<td>{{producer.type}}</td>
+		<td><a href="#/producers/{{producer.id}}">Details</a></td>
+	</tr>
+</table>
+<br/>
+<a href="#/admin">Admin</a>
+
+<leaflet></leaflet>
