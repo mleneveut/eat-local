@@ -8,7 +8,7 @@ cdApp.config(['$routeProvider',
                 templateUrl: 'partials/admin/producerForm.html',
                 controller: 'AddProducerController'
             }).
-            when('/producers', {
+            when('/admin/producers', {
                 templateUrl: 'partials/list.html',
                 controller: 'ProducerListCtrl'
             }).

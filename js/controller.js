@@ -30,7 +30,13 @@ var producerControllers = angular.module('producerControllers', []);
 
 producerControllers.controller('ProducerListCtrl',['$scope','$http',
     function($scope,$http) {
-        $scope.producers = datas;
+        $http.get({url: '/producteurs'}).
+            success(function(data, status, headers, config) {
+                $scope.producers = data;
+            }).
+            error(function(data, status, headers, config) {
+                $scope.producers = datas;
+            });
     }]);
 
 producerControllers.controller('ProducerSearchCtrl',['$scope','$http',
@@ -64,13 +70,31 @@ producerControllers.controller('ProducerDetailCtrl',['$scope','$routeParams',
         $scope.producers = datas[$routeParams.id];
     }]);
 
-producerControllers.controller('AddProducerController', ['$scope','$routeParams', '$location',
-    function($scope,$routeParams, $location) {
-        $scope.addTabActive = "active";
+producerControllers.controller('AddProducerController', ['$scope', '$http', '$routeParams', '$location',
+    function($scope,  $http, $routeParams, $location) {
+
         $scope.addProducer = function($routeParams){
-            // validation
-            datas.push({id: datas[2].id + 1, name: $scope.newProducer.name, type: $scope.newProducer.type});
-            alert(datas[3].name);
+
+            var producteurCoordonnees = {latitude: $scope.newProducer.latitude,
+                                         longitude: $scope.newProducer.longitude};
+
+            var producteur = {id: null,
+                              nom: $scope.newProducer.name,
+                              description: $scope.newProducer.description,
+                              raison_sociale: $scope.newProducer.raison_sociale,
+                              coordonnees: producteurCoordonnees};
+
+            console.log(producteur);
+            console.log($http);
+            $http.post({url: '/producteur/add', data: producteur}).
+                success(function(data, status, headers, config) {
+                    // success
+                }).
+                error(function(data, status, headers, config) {
+
+                });
+
+            //datas.push({id: datas[2].id + 1, name: $scope.newProducer.name, type: $scope.newProducer.type});
             $location.path('/');
         }
     }]);
