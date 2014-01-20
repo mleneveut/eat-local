@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="cdApp">
+	<head>
+		<meta charset="utf-8">
+		<title>Course - Vente directe - Près de chez vous</title>
+		<script type="text/javascript" src="http://code.angularjs.org/1.2.9/angular.js"></script>
+        <script type="text/javascript" src="http://code.angularjs.org/1.2.9/angular-route.js"></script>
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
+        <script src="js/angular-leaflet-directive.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/controller.js"></script>
+        <script type="text/javascript" src="js/navigation.js"></script>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+        <link rel="stylesheet" href="css/bootstrap-ippon.css" />
+	</head>
+	<body>
+		<section>
+			<header>
+				<h1>Producer Application</h1>
+			</header>
+		</section>
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#map" ang-showtab="">Près de chez moi</a></li>
+            <li><a href="#ajouter" ang-showtab="">Ajouter un producteur / marché</a></li>
+            <li><a href="#admin" ang-showtab="">Administration</a></li>
+            <li><a href="#about" ang-showtab="">About Ippon Technologies</a></li>
+        </ul>
+
+
+        <section>
+             <div ng-view></div>
+        </section>
+
+
+
+
+	</body>
+</html>
