@@ -14,7 +14,7 @@ cdApp.config(['$routeProvider',
             }).
             when('/map', {
                 templateUrl: 'partials/map.html',
-                controller: 'ProducerListCtrl'
+                controller: 'ProducerSearchCtrl'
             }).
             when('/ajouter', {
                 templateUrl: 'partials/producerAdd.html',
