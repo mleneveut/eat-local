@@ -66,34 +66,33 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
 	});
 	$scope.markers = new Array();
 
-	geolocation.getLocation().then(function(data){
-	    $scope.center.lat = data.coords.latitude;
- 	    $scope.center.lng = data.coords.longitude;
-	    $scope.center.zoom= 14;
-	});
+        geolocation.getLocation().then(function(data){
+            $scope.center.lat = data.coords.latitude;
+            $scope.center.lng = data.coords.longitude;
+            $scope.center.zoom= 14;
+        });
 
         $scope.search = function(){
             var queryParams;
-            console.log($scope);
             console.log($scope.selectedDays);
             console.log($scope.selectedMerchantType);
             console.log($scope.selectedCategory);
 
-	    $scope.markers = new Array();
-	    $scope.markers.push({
-		lat: 44.8, // $lat
-                lng: -0.5, //$lng
-                focus: false,
-                message: "Hey, drag me if you want", // $popup_msg = title + '<br />' + description + '<br />' + address
-                title: "Marker", // $title
-		icon: {
-		    iconUrl: 'img/divers.png', // $category (here, the category is 'divers') 
-                    shadowUrl: 'img/marker-shadow.png',
-                    iconSize:     [32, 42], // size of the icon
-                    iconAnchor:   [16, 42], // point of the icon which will correspond to marker's location
-                    popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
-		}
-	    });
+            $scope.markers = new Array();
+            $scope.markers.push({
+            lat: 44.8, // $lat
+                    lng: -0.5, //$lng
+                    focus: false,
+                    message: "Hey, drag me if you want", // $popup_msg = title + '<br />' + description + '<br />' + address
+                    title: "Marker", // $title
+            icon: {
+                iconUrl: 'img/divers.png', // $category (here, the category is 'divers')
+                        shadowUrl: 'img/marker-shadow.png',
+                        iconSize:     [32, 42], // size of the icon
+                        iconAnchor:   [16, 42], // point of the icon which will correspond to marker's location
+                        popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
+            }
+            });
         };
     }]);
 
@@ -117,7 +116,6 @@ producerControllers.controller('AddProducerController', ['$scope', '$http', '$ro
                               coordonnees: producteurCoordonnees};
 
             console.log(producteur);
-            console.log($http);
             $http.post({url: '/producteur/add', data: producteur}).
                 success(function(data, status, headers, config) {
                     // success
