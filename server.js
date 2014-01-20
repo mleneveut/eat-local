@@ -87,6 +87,7 @@ var eatLocalServer = restify.createServer( {
     name: "Eat Local Server"
 });
 eatLocalServer.use(restify.bodyParser());
+eatLocalServer.use(restify.queryParser());
 eatLocalServer.listen(80, function() {
     console.log('%s listening at %s', eatLocalServer.name, eatLocalServer.url);
 });

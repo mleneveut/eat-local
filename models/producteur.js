@@ -1,9 +1,9 @@
 /**
  * Module dependencies.
  */
-var mongoose = require('mongoose')
-    , Schema = mongoose.Schema
-    , ObjectId = Schema.ObjectId;
+var mongoose = require('mongoose'),
+    Schema = mongoose.Schema,
+    ObjectId = Schema.ObjectId;
 
 var CoordonneesSchema = mongoose.Schema({
     latitude: Number,
@@ -18,4 +18,4 @@ var ProducteurSchema = mongoose.Schema({
     coordonnees: [CoordonneesSchema]
 });
 
-module.exports = mongoose.model("producteurs", ProducteurSchema);
+mongoose.model("producteurs", ProducteurSchema);
