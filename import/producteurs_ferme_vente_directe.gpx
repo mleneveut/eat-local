@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx version="1.1" creator="bienvenue-a-la-ferme.com" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="43.861123" lon="0.103187"><name>Domaine de Lagajan-Pontouat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9054373188" lon="0.27774810791"><name>Domaine des Cassagnoles</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.887356" lon="0.238552"><name>Domaine Polignac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.90586" lon="-0.054924"><name>Domaine de Pujo</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.833296" lon="0.427991"><name>Domaine Entras</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.241345" lon="-0.88157"><name>La Ferme Souletine</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.007889" lon="1.119249"><name>La Voulperie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6983" lon="0.4793"><name>Domaine du Siorac</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.038881" lon="-0.13078"><name>Ferme Soube</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.655782316" lon="0.819165093254"><name>Ferme d'en Sigues</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.814291" lon="0.779634"><name>Foies Gras BEGUE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.170944" lon="0.789782"><name>La Ferme de Grande Maison</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="45.1163579" lon="-0.4060664"><name>Château Haut-Terrier</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5112027329" lon="-0.534458363428"><name>Ferme Grandguillotte-Lauzet</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.579063" lon="0.247994"><name>Domaine de Bilé</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.171875" lon="-0.458689"><name>Ferme Hondet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.711882" lon="-0.695413"><name>Ferme d'Haza</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.757265669" lon="-0.699488"><name>Ferme de Labouyrie</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.977422" lon="-0.172273"><name>Domaine de Paguy</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.6972674" lon="0.0834916"><name>La Cave</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.8591542865" lon="0.134754180908"><name>Château Moulin Caresse</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.763637" lon="-0.855"><name>La Déesse des Gourmets</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.942317" lon="0.965165"><name>Ferme de Peyret</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.675483" lon="-0.449443"><name>Ferme des Vallons</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.146542" lon="1.153322"><name>La Ferme de Charnaillas</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.843024" lon="0.598835"><name>Le Clos de Fontbrune</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.361795" lon="0.743688"><name>Champignonnière du Périgord Vert</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.608347" lon="1.099856"><name>La Ferme de las Crabères</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.464485" lon="0.988892"><name>Gaec du Marcadet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.656647" lon="-0.13078"><name>Ferme Monlezun</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5307691828" lon="0.970938205719"><name>La ferme d'En Loune</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.289978" lon="1.115174"><name>Ferme de la Garenne</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.837489" lon="1.026818"><name>Ferme auberge les Tilleuls</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.466835" lon="0.822914"><name>Ferme de Monredon</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.038676204" lon="0.309505462646"><name>Château de la Grangerie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6540010778" lon="0.591201782227"><name>La Canelle</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.537226" lon="0.576493"><name>La Pruneraie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6647460891" lon="0.230712890625"><name>Domaine de Laulan</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.583108" lon="0.6232"><name>Ferme de Selles</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.3594512595" lon="0.449151992798"><name>Ferme de Prats-de-Roux</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2932611879" lon="0.398597717285"><name>Ferme de Ramon</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.7934090851" lon="0.403060913086"><name>Domaine de Grange Neuve</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.605912" lon="0.530027"><name>Ferme de Jean-Pierre Pradeaux</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.629206" lon="0.386752"><name>Ferme du Bon Coin-coin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6444143588" lon="0.786852836609"><name>Ferme de Grangeneuve</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.294357" lon="-0.453738"><name>SARL du Pré Vert</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.940326" lon="1.136338"><name>Ferme du Vignal</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.997612423" lon="1.23480319977"><name>Ferme Minard</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.801943" lon="1.163629"><name>Ferme des 2 Pigeonniers</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.422946" lon="1.06688"><name>La Ferme de Laupilière</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.423994" lon="0.037025"><name>Ferme Laporte</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8127292976" lon="0.964050292969"><name>Ferme de La Grand Borde</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.7927206263" lon="0.945425033569"><name>Ferme de la Mude</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.5309352582" lon="-0.0298478043213"><name>Domaine d'Héchac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.843384" lon="0.759302"><name>La Plane</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.8379018312" lon="0.614740848541"><name>La Rivière</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.1540920507" lon="0.326605980148"><name>La Flore des Pyrénées</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.849145" lon="-0.413146"><name>Château Beaulé</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.6161938237" lon="1.11511230469"><name>Au Pigeonnier de Guerre</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.54763" lon="0.294112"><name>Hameau de l'Aoueille</name><desc>séjour, restauration, loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.585431" lon="-0.375884"><name>La Nordland</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.663754" lon="-0.328633"><name>ferme Lacere</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.565846" lon="-1.45797"><name>Ferme de l'Amitié</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.6688543" lon="-1.0459128"><name>Ferme de Thoumiou</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.949388" lon="0.032499"><name>Domaine de Laguironde</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.566986343" lon="-0.654249358986"><name>VERGER PELANNE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.392717" lon="-1.456975"><name>Mamia-Baïta, la maison du piment</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1716986056" lon="-1.23415165145"><name>Domaine Mourguy</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.4402874131" lon="0.188972473145"><name>Ferme aux Picharrots</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.226974" lon="0.692011"><name>Ferme du Poutchoun</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.391764" lon="1.139314"><name>Maloubier Vert Périgord</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.791887" lon="0.69707"><name>Les foies gras de Sirguet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8123309" lon="-0.1404194"><name>Château de Bonhoste</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.375" lon="-0.0144"><name>Ferme du Moulinat</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.1873097783" lon="-0.0240644257602"><name>Ferme Campet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.672278" lon="-0.819665"><name>ferme du pas de soubot</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.586934" lon="-0.96104"><name>Ferme Escazaous</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.110109" lon="0.82073"><name>Domaine de Coujetou</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.482538" lon="1.070131"><name>Les Collines de l'Autan</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.301946" lon="-0.584214"><name>Domaine Capdevielle</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.27526" lon="1.010512"><name>Maison Abadie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.498168" lon="-0.074819"><name>Miellerie Franck Pécarrere</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.746861" lon="0.027096"><name>Ferme le Bayle</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.3292175694" lon="-0.506758341026"><name>Maison Biscar</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.2517436834" lon="-0.670255422592"><name>Domaine Pédelaborde</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.4182333468" lon="-0.510381031677"><name>Ferme LAHOURCADE</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.504257" lon="1.202215"><name>Ferme du Fariol</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.347668" lon="0.648808"><name>Faye</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.600777" lon="-1.068422"><name>Domaine du Tastet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.873084" lon="0.245158"><name>La Ferme du Cassou</name><desc>séjour, restauration, loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.11151" lon="1.028857"><name>Ferme de Chayroux</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.084275" lon="0.896996"><name>Les Ruchers de Naoudis</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.571122" lon="-0.336071"><name>Ferme gourgoussa</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.595539" lon="-0.327204"><name>Ferme de Laouga</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.734552" lon="-0.701832"><name>Ferme Tauzia</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.5738431566" lon="0.76432857727"><name>La Ferme d'En Castéra</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.034598" lon="1.217391"><name>Domaine du Rouch</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.324127" lon="0.447833"><name>Ferme du bout du bois</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.430696" lon="0.92098"><name>La Ferme de Lacassagne</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.673046" lon="-0.181633"><name>La Ferme Près de l'Eglise</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.287412" lon="-0.658862"><name>Domaine Larroudé</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3752202417" lon="0.45524597168"><name>Ferme Bérino-Martinet - Musée du Pruneau</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.4554718649" lon="0.285472869873"><name>La Plaine aux Fleurs</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.430623" lon="0.580322"><name>La Ferme d'Hauterive</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.693806" lon="0.305132"><name>Domaine de Laplace</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.868051" lon="0.428604"><name>Château Combrillac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.583485" lon="1.194916"><name>GAEC Cache-Cache</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.188359" lon="-0.771902"><name>Ferme Uhartia</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.802921" lon="1.214633"><name>Ferme de Turnac</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.821277" lon="0.610988"><name>Ferme des Rivailles</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.376365" lon="0.95424"><name>Ferme de Monvert</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.271472" lon="0.751685"><name>Chèvrerie des Hounts</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.921502" lon="0.270559"><name>La Cabanne</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.371124" lon="0.557077"><name>La Ferme de la Plano</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.1553468449" lon="1.01152885679"><name>Ferme de Guyraudelle</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.731176" lon="-0.256056"><name>Domaine de Balous</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.634755" lon="-0.694801"><name>Ferme Plan Gagnat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.732053" lon="-0.786785"><name>Ferme Ceres</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4591746" lon="-0.2383164"><name>Bergerie de Camelon</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9699456335" lon="-0.185920000076"><name>Domaine de Luquet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.705197" lon="-0.637596"><name>Ferme Hilloucat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.7484051503" lon="-0.698661804199"><name>Ferme de Sauret</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.23077" lon="-0.984449"><name>Ferme La Closerie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4357774175" lon="1.13423202588"><name>Ferme d'Antioque</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.71104" lon="1.161875"><name>Ferme de Brendies</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.7727766" lon="-0.4771822"><name>Château Courtade-Dubuc</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.5268025" lon="-0.2171087"><name>Château le Maine Périn</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.29451" lon="0.505578"><name>Ferme Auberge de Nouste Temps</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.360329" lon="-0.164329"><name>Château du Mont</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9374925935" lon="1.21239423752"><name> LE RUCHER DE LAURIOL</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.71104" lon="1.161875"><name>Ferme de l'Allègre</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.809559" lon="0.165216"><name>Domaine de Maubet - Domaine de Grachies</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.9034798" lon="-0.4492339"><name>Château La Lande Saint-Jean</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.814568" lon="0.550675"><name>Les 3 Domaines</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.43913" lon="0.969992"><name>Esprit Foie Gras</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.877391" lon="0.915987"><name>La Plume Blanche</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="45.236796" lon="-0.24723"><name>GAEC Les Barbins</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.0999429" lon="-0.7820316"><name>Château Cap Léon Veyrin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3882939258" lon="0.529425144196"><name>La Ferme des Tuileries</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.9688510884" lon="-0.361862182617"><name>Ferme des 9 fontaines</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2706485905" lon="0.457820892334"><name>ferme de Quissat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.253992" lon="0.730554"><name>Michèle DUCASSE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.111208" lon="0.552566"><name>Ferme des Coupets</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.559005" lon="-0.471535"><name>Les Délices du Luy de France</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.173518" lon="-0.194552"><name>Ferme Pommiès</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.408777" lon="0.880083"><name>Pisciculture de Fon Pépy</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.853274" lon="0.48295"><name>Château d'Elle</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.678446" lon="-0.609788"><name>Ferme de Clercq</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.751177" lon="-0.601666"><name>Ferme du gay</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.0924494613" lon="0.851046144962"><name>Nicole et Alain DUTHEIL</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.651319" lon="-1.034814"><name>Ferme Lahourie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.876906" lon="-0.282929"><name>Château de Ravignan</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6239193257" lon="-0.692839650437"><name>Ferme Moulié</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.252565" lon="0.878382"><name>Ferme de Combebonnet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4637" lon="-0.00107"><name>Château GAURY BALETTE</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.382444" lon="0.131134"><name>Chez Bongiovanni</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.255751" lon="0.103363"><name>Ferme du Casterieu</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.335708" lon="-0.920358"><name>Château Pierre de Montignac</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.869134" lon="-0.168227"><name>Château FONROQUE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.355723" lon="-0.056694"><name>EARL du  Domaine de Fontgaillard</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3653240137" lon="0.359165"><name>A Rouquet</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.3364142133" lon="-1.19569453329"><name>AGERRIA</name><desc>séjour, loisirs, produits fermiers</desc></wpt>
+<wpt lat="45.395563" lon="-0.207078"><name>EARL Jardin des Rigallauds</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0722321326" lon="-1.21750831604"><name>ferme Kerdoen</name><desc>séjour, loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.650963" lon="-0.040233"><name>Château Haut de Lerm</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.1679838435" lon="0.423231124878"><name>Ferme de Caussens</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8918342" lon="-0.4939222"><name>Le Jardin Grenadine</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.3364683992" lon="1.14930778742"><name>Ferme de Ramounicat</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.491655515" lon="0.837752052795"><name> Ferme Biologique de Crozefond</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.6088625066" lon="-0.144281387329"><name>Vignobles Michel BERGEY</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.822276" lon="-0.361129"><name>Elevage des Barthes</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.861572" lon="-0.227311"><name>Domaine du Peyron</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.969728" lon="-0.186794"><name>Ferme de Labouc</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.575222" lon="-0.37631"><name>Ferme de Pléchot</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.71104" lon="1.161875"><name>Ferme d'en Barrus</name><desc>restauration, loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.949388" lon="0.032499"><name>Domaine du Castagnet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.664969" lon="-0.817475"><name>Ferme de Jouandéou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.613784" lon="-1.034168"><name>Ferme Lassalle</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.233826" lon="-1.131418"><name>Les Ruchers du Born</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4257465436" lon="-1.23763561249"><name>la ferme Bethanoun</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4931719746" lon="-0.7262134552"><name>Lait P'tits Béarnais</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="45.2768550519" lon="0.112129747868"><name>Les Fermiers Gastronomes</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2112968667" lon="1.1300817132"><name>Ferme de la Pouège</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3902" lon="1.003437"><name>La Ferme de Château Merle</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4884234082" lon="0.198097229004"><name>EARL MAURIN Michel</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.89441" lon="0.729845"><name> Le Lau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4629775" lon="0.9751823"><name>La Ferme des Mouliots</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5988009" lon="-0.3948884"><name>Domaine de Peyrat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.4288168503" lon="0.827407836914"><name>Le Manoir de Bigeau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2744303722" lon="-0.242581665516"><name>Ferme du Bosquet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.20066652" lon="-0.054931640625"><name>Ferme de l'Argenté</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4781357047" lon="0.987396240234"><name>Domaine de Lions</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.1420127116" lon="0.825248693848"><name>Deux soeurs en Aquitaine</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3139247" lon="-0.5893725"><name>Château La Rose Bellevue</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.569009" lon="-0.055994"><name>L'Atelier du Miel</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.474894" lon="0.855155"><name>La Ferme du Plessis</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4204481279" lon="1.02537631989"><name>Domaine de Lancement</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.81542" lon="0.55125"><name>Domaine d'Embidoure</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.3161389097" lon="0.818738937378"><name>Ferme des Claveres</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.638167" lon="-1.433805"><name>domaine les dunes de la pointe</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.7502258" lon="-0.1896614"><name>Ferme Manieu Noël</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="45.047482" lon="0.980977"><name>Ferme de Tourtel</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.3642898" lon="0.6471479"><name>Ferme des Gourdoux</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8715236" lon="1.0525624"><name>Ferme du Mas de Castels</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9565666" lon="1.2307018"><name>La Cave du Berger</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2425767622" lon="1.21639251709"><name>Le Rucher des Ânes</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.7840914653" lon="0.47490635582"><name>Domaine de Cavaroque</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.08508" lon="0.38473"><name>Pisciculture du Moulin de Boissonnie</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.9230846" lon="-0.2874765"><name>Château Canon Saint-Michel</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.103909" lon="-0.267993"><name>ferme Melet - Le pastis de Roseline</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.7072827" lon="0.6529096"><name>Les Tertres du Plantou</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="45.0158274" lon="0.2046238"><name>Le gaec du petit clos</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9554568346" lon="0.305704653263"><name>Domaine Meillan</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.648251908" lon="0.334345400333"><name>GATEL Agnès</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.976856" lon="0.119099"><name>A Peyroutet</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.8022722516" lon="-0.251099538757"><name>Bergerie de Daignac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.1829425713" lon="0.470180511475"><name>DOMAINE DE VERSAILLES</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.878236" lon="0.043186"><name>La Ferme du Petit Larroudé</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.599662" lon="-0.236635"><name>Ferme Au Grit</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.69976564" lon="0.997702181339"><name>Les Ruchers d'Embideau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6422368564" lon="0.885233461857"><name>La Bordeneuve</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5148957562" lon="0.588602602482"><name>La Ferme du Hourcot</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.760523" lon="0.496073"><name>Domaine Encapette</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.0905769257" lon="-0.713926255703"><name>Ferme de l'Arrigau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.339456" lon="0.170382"><name>Château des Plassons</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3775494863" lon="-0.280323735474"><name>EARL La Laitière</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2453805173" lon="1.05489403009"><name>Les Délices d'Audrey</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.5594037" lon="-1.3152922"><name>ferme Liheyte</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.93551" lon="0.335597"><name>La Ferme de Martin Neuf</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.460106" lon="0.215185"><name>Ferme du Cabournieu - Gaec des Marronniers</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.123571" lon="0.348537"><name>Chez Claude Marmouget</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6293896203" lon="-0.164205134766"><name>Domaine de Maouries</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.437652" lon="0.266247"><name>Ferme du Courdou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3349855" lon="-0.994323"><name>Château Gadet Terrefort</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.0927252" lon="-0.572081"><name>Château Haut-Mousseau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6843198" lon="1.019826"><name>EARL l'atelier d'Empéoute</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.413022" lon="0.288032"><name>LA FERME DE BERNARDIN</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.0739057016" lon="0.377271473408"><name>Les Ruchers Nestes Baronnies</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9539829684" lon="0.00936895608902"><name>Château Tour Blanc</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.32517768" lon="-1.0986328125"><name>La Ferme Aux Piments</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.1820134949" lon="-0.917066037655"><name>La Ferme ATXINEA</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.0487148192" lon="-0.583055913448"><name>Château Puy d'Amour</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.846403" lon="-0.240526"><name>Château Lecourt Caillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.219100265" lon="1.10356003046"><name>Ferme de Cléjust</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.4061543296" lon="-0.179522931576"><name>SCEA TASTET</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2288726519" lon="0.472876131535"><name>La ferme des Périlles</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1455304227" lon="-0.389421880245"><name>la ferme Guedot</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3969307637" lon="-1.13155156374"><name>La ferme Elgarrekin</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.154351901" lon="-0.601359307766"><name>La ferme de la Porte d'Aspe</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1614699" lon="-0.3829426"><name>la ferme Minvielle</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.290925892" lon="-0.119291245937"><name>Ferme Cazabonne</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.7506921" lon="0.6002492"><name>Château Colin-Madrigal</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.227303" lon="1.145603"><name>Les vergers de la Guillou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.507392344" lon="0.0397744774818"><name>La Ferme des Pallards</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.806083" lon="0.6374069"><name>La ferme de Fontaut</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.116555" lon="1.173526"><name>La ferme des Monteyx</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3740928698" lon="-0.952031314373"><name>Les Fleurs d'Osserain</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5037501749" lon="0.320869982243"><name>Les Belles des Champs</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4761146458" lon="0.00229593115236"><name>Château Bois-Beaulieu</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0909044139" lon="-0.579923093319"><name>L’AIRIAL DE CÉCILE ET LAURENT</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6438298106" lon="-1.03722900152"><name>Domaine de Pribat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.604745" lon="0.85846"><name>Les Barouillettes</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.699595" lon="0.572985"><name>Aux délices de la ferme Farm Shop</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3790038601" lon="-1.39628861099"><name>Ferme Harizkazuia  Maison de Miel &amp; de l'Abeille</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.8589881" lon="0.1068887"><name>Les Vignobles de Pagnon</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.09867" lon="0.783577"><name>Ferme de Puygauthier</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.436576" lon="0.561893"><name>La Ferme de Lestive</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.315563" lon="0.19129"><name>EARL Ferme de Chez Méry</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6003927962" lon="-0.125033855438"><name>Chateau de Viella</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.1227025455" lon="0.946106433868"><name>Em'ane</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.1127698" lon="-0.8448749"><name>Château Liouner</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.103527" lon="0.5474367"><name>Au Rayon de Miel</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.27321" lon="0.230587"><name>Marrons des Pyrenees</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.354866" lon="0.317277"><name>Ferme des collines</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.619716" lon="-0.0292331000001"><name>Château de Lavison</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4407467111" lon="-0.69728016201"><name>de Bicatou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4066687536" lon="-0.269165039062"><name>Les fromages de Clarmontine</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2014219475" lon="-1.14262104034"><name>Ekiola</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8070928577" lon="0.425012111664"><name>Les jardins de Mesples</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.854594" lon="0.479878"><name>Nature Viande</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3066376764" lon="-0.551814504297"><name>le clos Bellevue</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.646621" lon="0.783846"><name>Ferme d'En Cagalin</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="45.2954334026" lon="0.413116661377"><name>La Ferme du Châtain</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8161544492" lon="-0.140526294708"><name>Le Cabestan, ferme du pêcheur</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5236817614" lon="0.164880752563"><name>LA FERME DE LACLAVETTE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9972602553" lon="1.05254173279"><name>La Ferme des Jauberts</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.378059166" lon="0.471698760986"><name>La Ferme de Rantoy</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.530896" lon="0.0934130000001"><name>EARL DE LA BERGERIE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2236" lon="-0.113953"><name>La Ferme du Ciron</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8625796" lon="0.31285309"><name>Terroir Feely Château Haut Garrigue</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.90488732" lon="-0.065694"><name>Les Gibiers de Gascogne</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9253875" lon="-0.6301819"><name>Château Saint Ahon</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.90393" lon="0.455087"><name>Aux Evêques gourmands</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0426431114" lon="0.869781494141"><name>Domaine de  Thermes</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3984824736" lon="0.955531597137"><name>Aux paniers d'Agenais</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.896" lon="-0.155475"><name>Marché de Saint-Emilion 13 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.1503" lon="-0.821955"><name>Marché de Saint-Laurent-Médoc 24 mai</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5659" lon="-0.227599"><name>Marché de Saint-Macaire 12 juillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.441702" lon="0.914783"><name>Les ruchers de Montadet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3385" lon="1.21036"><name>MONTCUQ</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8389" lon="0.21799"><name>Marché de Sainte-Foy-la-Grande 18 juillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8389" lon="0.21799"><name>Marché de Sainte-Foy-la-Grande 8 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4474" lon="0.0265633"><name>Les Vignerons du Marmandais présentent : &quot;Festi Vino&quot;</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3873" lon="0.447117"><name>Marché de Laparade</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0852" lon="0.320545"><name>Marché du Fréchou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3147" lon="0.00404061"><name>Marché de Brie sous Chalais</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.4204" lon="0.0564831"><name>Marché de Nonac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.24" lon="0.116822"><name>Marché des Essards</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.645" lon="-0.981917"><name>Marché de Biganos 7 septembre</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.814" lon="-0.503427"><name>Marché de Bouliac 14 septembre</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9575" lon="-0.668323"><name>Marché du Pian-Médoc 21 juin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3088" lon="-0.937057"><name>Marché de Lesparre-Médoc 15 juillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.896" lon="-0.155475"><name>Marché de Saint-Emilion 30 juillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6374" lon="-0.319413"><name>Marché de Cadillac 7 juin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.531" lon="0.767287"><name>Marché de Monflanquin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.187" lon="0.797913"><name>Marché de Puymirol</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.042" lon="0.140811"><name>Marché de Sos</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6373" lon="0.743832"><name>Marché de Villeréal</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.982" lon="1.05518"><name>Marché de Cocumont</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.203" lon="0.26416"><name>Marché de Sauveterre la Lémance</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.0163" lon="-0.351074"><name>Marché de Sainte-Foy-la-Grande 15 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4858" lon="-0.043457"><name>Marché de Villandraut 1er septembre</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8302" lon="-0.807"><name>TARTAS</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8658" lon="-0.639605"><name>CAMPAGNE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8313" lon="-0.500527"><name>BENQUET</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.7268" lon="1.21957"><name>Bouzic</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.1674" lon="0.692087"><name>Coulounieix-Chamiers</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5927" lon="1.08809"><name>Loubejac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.2483" lon="0.340059"><name>RIBERAC</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8242" lon="-0.551199"><name>Marché des Producteurs de Pays à Bordeaux </name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4532" lon="-0.573086"><name>Marchés des Producteurs de Pays Le Tuzan 30 juin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8629" lon="-0.55416"><name>Marchés des Producteurs de Pays Bordeaux </name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4454" lon="-0.56416"><name>Marchés des Producteurs de Pays Le Tuzan 31 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4902" lon="-1.48135"><name>Marché de Producteurs de Pays &quot;Ferme en Ville&quot;</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3177" lon="-0.476191"><name>Marché de Producteurs de Pays</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0757" lon="-1.16514"><name>MEZOS</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9304" lon="-0.651501"><name>SAINT MARTIN D'ONEY</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.098" lon="-0.546231"><name>LABRIT</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.59" lon="-0.748457"><name>AMOU</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9699" lon="-0.185663"><name>LABASTIDE D'ARMAGNAC</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3178" lon="-0.475887"><name>Marché de Producteurs de Pays d'Artiguelouve</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6285" lon="-0.829983"><name>POMAREZ</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3235" lon="-0.758164"><name>MPP de Navarrenx</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.312" lon="-1.57809"><name>MPP de SARE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2517" lon="-0.298931"><name>MPP DE ASSAT</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.296" lon="-0.369835"><name>MPP DE PAU</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1776" lon="-0.260676"><name>MPP DE NAY</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.351" lon="-0.470116"><name>Marché de Producteurs de Pays de Poey-de-Lescar</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.186" lon="-1.05758"><name>Marché des Producteurs d'Hourtin 23 juin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2215" lon="-1.20573"><name>AUREILHAN </name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9823" lon="-0.229651"><name>SAINT JUSTIN </name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9466" lon="0.807739"><name>STE ALVERE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.4144" lon="0.920875"><name>THIVIERS</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.0189" lon="1.1432"><name>VALOJOULX</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6302" lon="1.07712"><name>VILLEFRANCHE DU PERIGORD</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3489" lon="-1.07252"><name>PARENTIS EN BORN</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2635" lon="-0.518821"><name>LUXEY</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2408" lon="-1.12083"><name>PONTENX LES FORGES</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.1304" lon="0.565026"><name>VERTEILLAC</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.324" lon="-0.583639"><name>SORE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.186" lon="-1.05788"><name>Marché des producteurs d'Hourtin 18 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5839" lon="-0.0890708"><name>Marché de Gironde-sur-Dropt 3 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.7077" lon="-1.05213"><name>DAX</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3419" lon="-0.263243"><name>Marché de Prodcuteurs de Pays de la Ferme en Ville</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3067" lon="-1.49817"><name>Marché de Producteurs de Pays d'Ainhoa</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2925" lon="-0.306587"><name>Marché de Producteurs de Pays d'Idron</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3709" lon="-0.629396"><name>Marché de Producteurs de Pays de Mourenx</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.0951" lon="-0.716836"><name>Marché de Producteurs de Pays d'ARETTE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.0515" lon="0.363235"><name>Saint Front de Pradoux</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.2652" lon="0.0411987"><name>Chalais</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8671" lon="0.370789"><name>La Force</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5037" lon="1.18783"><name>Marché des Producteurs</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.588698" lon="-0.262776"><name>Ferme Poutchas</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.432849" lon="0.708068"><name>La ferme de la Manon</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.579063" lon="0.247994"><name>Domaine Apicole du Pillardon</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.255096" lon="0.051998"><name>Foie Gras Herau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.098092" lon="-0.045558"><name>Ferme Sayous</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.5995592" lon="-0.3245076"><name>Château Dudon</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.779747" lon="0.418341"><name>Château Ladesvignes</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.112" lon="0.91886"><name>Milhac Oie En Périgord</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.843425" lon="0.79327"><name>Domaine de Barbe</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.2991828636" lon="0.870904743378"><name>Ferme Andrévias</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.300821" lon="0.40434"><name>Ferme Auberge du Lac</name><desc>restauration, loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.502987" lon="0.018656"><name>Cru du Paradis</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.379627" lon="0.034127"><name>Les ruchers du village</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.749343" lon="-0.757102"><name>Ferme Birouca - la ferme du foie gras</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.750437" lon="-0.7252777"><name>Ferme auberge Marquine</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.754" lon="-0.736079"><name>Ferme Pouys</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.717538" lon="-0.8613888"><name>Ferme de Parlarriou</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.749133677" lon="-0.41965842247"><name>Ferme de Pourrion</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.71966" lon="0.579398"><name>Domaine du Grand Comté</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.810596" lon="-0.042822"><name>Château de Salles</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.656304" lon="-1.031881"><name>Ferme de Gayan</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.842171" lon="0.381396"><name>Domaine du Capitaine</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.817926" lon="0.687007"><name>Ferme de la Bastide</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.758431" lon="1.085034"><name>Le Breuil</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.145156" lon="-0.916425"><name>La Petite Ferme Impériale</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.7557" lon="-0.815016"><name>Sombrun</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.915976" lon="1.105593"><name>Lacombe</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.967244947" lon="-0.837535858154"><name>Ferme de Lestrade</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8549351396" lon="1.23265324866"><name>Ferme de l'Hermitage</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.629678" lon="-0.829842"><name>Ferme du Grand Castagnet</name><desc>séjour, loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.69515" lon="-0.761602"><name>Ferme de Brougnon</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.748656" lon="-0.715683"><name>Ferme Larrey</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.56252" lon="-0.343222"><name>Ferme de Chay</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.750437" lon="-0.7252777"><name>Domaine de Maouhum</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.020123" lon="0.143509"><name>Ferme Régine &amp; Fils </name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.609354" lon="-0.101518"><name>Domaine Brana</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.609354" lon="-0.101518"><name>Domaine Sergent</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.813268" lon="0.184657"><name>Domaine San de Guilhem</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.640718" lon="-1.176244"><name>Ferme Lestrade</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8886454591" lon="0.07887840271"><name>Château  de Millet</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.467014" lon="-0.575485"><name>La ferme de Juliette</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.34576" lon="-1.705232"><name>Onjo-Leku</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.903979" lon="0.210838"><name>Domaine de Saint-Lannes-GAEC Vignobles DUFFOUR</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.779747" lon="0.418341"><name>Domaine du Boyer</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.578658" lon="0.326544"><name>Ferme de Bordeneuve</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.201515" lon="-1.142169"><name>Ferme Elizaldia</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.175035" lon="-1.347386"><name>Domaine Etxegaraya</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.980353" lon="1.223468"><name>Les Genestes</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.205835001" lon="0.468292236328"><name>Ferme Roques</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.282528" lon="0.226045"><name>Goutte d'Or</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.458994" lon="0.344528"><name>Ferme Bessonnet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.463211" lon="0.48475"><name>Ferme Calmels</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.693806" lon="0.305132"><name>Domaine du Petit Malromé</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.022198" lon="0.085972"><name>Quatre Chemins</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.032209" lon="0.162767"><name>Ferme du Boué</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.711732" lon="0.240809"><name>Domaine Amblard</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6067238145" lon="1.03391647339"><name>La Ferme du Buguet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.562579" lon="0.191056"><name>La Ferme du canard engraissé</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.531036" lon="0.767287"><name>Les Renardières</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4816876169" lon="0.618839263916"><name>La Ferme de Pauty</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4338104902" lon="0.434947013855"><name>Le Chaudron Magique</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.310557" lon="0.825449"><name>Le Musée du Foie Gras</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.280464" lon="-0.112307"><name>La Ferme de l'Enclave</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.296882" lon="0.412513"><name>Ferme de Lafayas</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="45.211269" lon="1.118322"><name>Domaine de Loqueyssie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9370989415" lon="1.08421325684"><name>Ferme de la Grange du Mas</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.004280296" lon="0.879421234131"><name>Elevage de Mortemart</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9528" lon="1.090511"><name>La Ferme de Bardenat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.734579" lon="0.483404"><name>Château les Justices</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.682354" lon="-0.930164"><name>Ferme de Bertrine</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.423751762" lon="0.398254394531"><name>La Patte d'Oie</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.6743090729" lon="-0.00813243359374"><name>Domaine de Labarthe</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.826563" lon="1.206344"><name>Ferme de Labrot</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="45.05822" lon="0.871019"><name>Ferme Auberge de la Colline</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.1197230314" lon="0.5432318151"><name>Ferme l'Esquerre</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.298449" lon="0.878625"><name>La Peyrasse</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.394098" lon="0.337317"><name>EARL GENDRON</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.759458" lon="0.894526"><name>GAEC du Père Igord</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9419593801" lon="1.14395141602"><name>Ferme de la Grézelie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.268756" lon="-0.686683"><name>Ferme de Béatrice Pierrou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.597816" lon="-0.222473"><name>Château la Piolette</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.351819" lon="-0.123655"><name>Ferme Alban Laban</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.231033" lon="-0.448303"><name>Domaine Bordenave-Coustarret</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.221359" lon="-0.478662"><name>Domaine de Cabarrouy</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.274886437" lon="-0.4833984375"><name>Domaine de Tout l'y faut</name><desc>séjour, restauration, loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.287412" lon="-0.658862"><name>Ferme Barraquet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.438728" lon="0.924489"><name>La Grèze</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.8625796" lon="0.31285309"><name>Château des Masseries</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5320035383" lon="0.298690795898"><name>Vergers des deux Côteaux</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.443351" lon="0.621917"><name>Lou Gaillot</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.824912" lon="-0.273529"><name>Domaine du Martin</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.472633" lon="-0.925429"><name>Ferme La Motte</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.611627" lon="-0.134303"><name>Ferme Apicole Entre-Deux-Miels</name><desc>restauration, loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.29943" lon="-0.55268"><name>Domaine Bordenave</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.629364" lon="0.022543"><name>Château Les Maubats</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.675449" lon="0.134987"><name>Domaine de Baignac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.476946" lon="0.452103"><name>Ferme de Sarboise</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.03283" lon="-1.257755"><name>Ferme de Ninou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.049878" lon="0.2517499"><name>La Ferme de Gagnet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.770814911" lon="-0.29435634613"><name>La Ferme à Foie Gras </name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.71116" lon="-0.840679"><name>Ferme du Haut Clouzet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.780437" lon="-0.734008"><name>Ferme Le Port</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8201341" lon="-0.2523494"><name>Domaine de Laubesse</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.861123" lon="0.103187"><name>Ferme de Mounet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.353832" lon="0.88985"><name>Les Guézoux</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.665742" lon="-0.844691"><name>Ferme Le Vieux Chêne</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.591428" lon="-1.10894"><name>La Tradition Landaise</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.917387" lon="-1.113245"><name>Ferme Lesca</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.607976" lon="-0.176467"><name>Château Perayne</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8040149" lon="0.0937"><name>Château de Carbonneau</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.3550912924" lon="-0.82477658987"><name>Château Saint-Christoly</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.930548" lon="-0.245957"><name>Domaine d'Augeron</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.70057" lon="-0.655265"><name>Ferme Guilhem</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8159963548" lon="-0.373018448093"><name>Ferme de la Gaube</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.722069" lon="-0.812793"><name>Ferme de Menaoude</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.690674" lon="-0.669428"><name>Ferme Espaounic</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.247809" lon="-0.194732"><name>Ferme La Chênaie du Lucmaysoua</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.650692" lon="-0.784412"><name>Ferme du Trouilh</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.779678" lon="0.412961"><name>Le Marguillat</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.883559" lon="0.810357"><name>La Maison de l'Ail</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.108316" lon="0.866252"><name>Ferme de Mourlon</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.9306529314" lon="-0.0776419043541"><name>EARL La Ferme du Rosier sur le Toit</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9531282" lon="-0.1208387"><name>Domaine d'Espérance</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.185989" lon="0.67087"><name>Ferme de La Bosse</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.779747" lon="0.418341"><name>Domaine du Haut Montlong</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.968634" lon="1.044397"><name>Elevage des Granges</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.437164" lon="-0.192174"><name>Ferme de Pingaillon</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1184651211" lon="-0.377275943756"><name>la Ramière</name><desc>séjour, loisirs, produits fermiers</desc></wpt>
+<wpt lat="45.322516" lon="0.753777"><name>SARL Le Cul Noir Périgourdin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.266852" lon="-0.210886"><name>Baylacq</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.709667" lon="0.311289"><name>La Boissière</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.0037299" lon="-0.0521817"><name>Château Laborde</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.004442" lon="-0.768078"><name>Ferme de Vertessec</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.044535" lon="-0.92247"><name>Ferme de la Noune</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.2217959055" lon="0.804690846558"><name>Claud de la Pouretie</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.7364911967" lon="1.14395141602"><name>Ferme Auberge du Roc</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.917621" lon="0.403007"><name>Ferme de Biorne</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="45.02068" lon="0.845963"><name>La Rigonie</name><desc>restauration, loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.619653" lon="-0.780094"><name>Ferme Perland</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.112112" lon="-0.263451"><name>Hourségou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.41976" lon="1.147281"><name>Domaine de Maison Neuve</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.535663" lon="-0.411797"><name> EARL Lou Guit d'Arzacq</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.90586" lon="-0.054924"><name>Domaine de Guilhon d'Aze</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.138242" lon="0.450549"><name>Ferme du Maine</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.083201" lon="0.702511"><name>Ferme de Prouzic</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.736152" lon="-0.26554"><name>Ferme de Bergeron</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.825727" lon="-0.251896"><name>Bacoge</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.572636" lon="-1.207607"><name>Ferme La Barthote</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.755795" lon="-0.789247"><name>Les Vergers d'Estienne</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.585546" lon="-0.508805"><name>Ferme basté</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.728436968" lon="-0.703983306885"><name>Brana</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.595539" lon="-0.327204"><name>Ferme de Marsan</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.624833" lon="-1.209843"><name>Pélerin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8650349346" lon="-0.40655109021"><name>Domaine de la Grave</name><desc>restauration, loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.75624" lon="-0.685044"><name>Ferme Loupret</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8218090623" lon="-0.791358947754"><name>Ferme Labouyrie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.631944" lon="-0.7779166"><name>Ferme du vieux bourg</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.758029" lon="-0.908805"><name>Ferme coumet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.648028" lon="-0.973844"><name>Ferme Bastebieille</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.748917" lon="0.03752"><name>La Ferme du Coustalat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.84469" lon="0.16505"><name>Domaine de Laguille</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.833064" lon="-0.178209"><name>Domaine de Jean-Bon</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.820824" lon="-0.089665"><name>Domaine de Joy</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.90792" lon="0.335747"><name>Domaine de Cachelardit</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.887356" lon="0.238552"><name>Domaine de Guillaman</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.665662" lon="-0.531453"><name>Château Magneau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.657795" lon="0.956966"><name>La ferme des héritiers</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.731916" lon="-0.8715"><name>Ferme de Lagraulet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.626401" lon="-1.235621"><name>Ferme de Blazy</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.260879" lon="0.293887"><name>Ferme du Moulié</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2842523835" lon="-0.536083433533"><name>Domaine Castéra</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.250656" lon="0.347457"><name>Les produits fermiers de Bigorre</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2913715062" lon="-0.720948986786"><name>La Grange de Georges</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.2878899" lon="0.896523"><name>Ferme de Cassagnaou</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.1298502742" lon="-1.29520940678"><name>Pelloënia</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3144298574" lon="1.04092876172"><name>Ferme Auberge de Ménimé</name><desc>restauration, loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.881295" lon="-0.3274655"><name>Château La Pontête</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="44.2792401596" lon="1.04262937207"><name>Ferme de Lacontal</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.695613762" lon="1.18178129196"><name>Ferme des cochons Bio La Houero</name><desc>restauration, loisirs, produits fermiers</desc></wpt>
+<wpt lat="45.0932772027" lon="-0.59103012085"><name>Château Mercier</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.6257248624" lon="-0.222344398499"><name>Domaine du Cheval Blanc</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="43.2588211187" lon="0.044484436512"><name>Ferme CRAMPE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.579063" lon="0.247994"><name>La Ferme du Guillaumet</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.52149" lon="0.412518"><name>La Ferme du Peyré</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9906036072" lon="0.230411868529"><name>La Ferme Lacave d'en haut</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.419018" lon="-0.162681"><name>LERISSON GOURMAND</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.98331" lon="0.027869"><name>ferme Nadeau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.864764" lon="-0.704685"><name>Le jardin des saveurs</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.354915" lon="0.193707"><name>Ferme de la Merlère</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5226634875" lon="-0.914611816406"><name>Ferme Coutrouilh</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.331032" lon="0.701937"><name>La Ferme du Grand Claud</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.006381" lon="0.339810899999"><name>Domaine Les Remparts</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6659944" lon="-0.0248527"><name>Château de l'Hermitage</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5800351018" lon="-1.07735484838"><name>Ferme Saint-Henri</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.822135" lon="0.115593"><name>Les Sources</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.1281342133" lon="-0.429086387157"><name>Ferme A Badie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.0728044051" lon="0.0991559028625"><name>Ferme de la Clotte</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.385872" lon="0.054722"><name>EARL de Lapeyre</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.286548" lon="0.27835"><name>Ferme du Padouen</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.805431" lon="0.432221"><name>La Ferme du Peyrouau</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.2440166617" lon="-1.28541505859"><name>Arnabar</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.085979" lon="-1.229827"><name>Ferme de Lanés</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9795" lon="-0.17616667"><name>Ferme de l'Hecso   </name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9030643508" lon="1.00662231445"><name>Domaine de la Voie Blanche</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8265437" lon="-0.3630401"><name>Château la Guillaumette</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.81542" lon="0.200115"><name>Domaine de Gaturlon</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9030643508" lon="1.00421905518"><name>Ferme de Péchalifour</name><desc>séjour, loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.7311922847" lon="-1.19095176458"><name>Les pieds dans l'eau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.876613" lon="0.9928892"><name>La Petite Gardonne</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5858122181" lon="0.878023684025"><name>La Ferme du Petit Gaveur</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.605506" lon="0.993133"><name>La Ferme du Choucou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6053708785" lon="-0.21748046875"><name>Domaine Laougué</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.378269" lon="0.395919"><name>La Ferme de Doxion</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.88535" lon="0.16162"><name>Domaine des Persenades</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.149611" lon="1.0087"><name>La Lande des Ormeaux</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8316236" lon="-0.3702065"><name>Château de Camarsac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8068663" lon="0.1925138"><name>Château Grand-Montet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1453836482" lon="0.0841784477234"><name>Chez Gilles SEMMARTIN</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8895049" lon="0.082801"><name>Vignobles Loubery Château Haut Mayne</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6017182" lon="-0.0472436"><name>Le Bosquet des fleurs</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5490716973" lon="0.111665725708"><name>Vergers de Peyreton</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.7271499701" lon="1.15646123886"><name>Ferme En Maynée</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.992901" lon="0.2301979999"><name>Domaine de Magnaut</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8241243904" lon="0.349731277344"><name>Domaine Les Acacias</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4195592385" lon="0.844831466675"><name>FERME DU LACAY</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.1275208772" lon="0.368385314941"><name>Château du Frandat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.502558881" lon="-0.329618006945"><name>Ferme du Claüs</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.410171" lon="0.531271"><name>Les Vergers de Roussel</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.40105" lon="0.872516"><name>FERME DES CLOS DE PALANDRAN</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5479095083" lon="0.872039794922"><name>Fromagerie du Domaine de Tendou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1028" lon="-0.39637"><name>Ferme Labède</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1721710027" lon="-0.0378808379173"><name>Les Chèvres d'Angélique</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6667" lon="-0.35"><name>Ferme de Gnigue</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.62949" lon="0.180772"><name>Domaine de Turet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0571123436" lon="0.303446352482"><name>Ferme d'Haouas</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3841670209" lon="0.0934186577797"><name>Ferme de Cassagneau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5170190674" lon="0.944297677246"><name>Ferme de la Mouniche</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.973919" lon="0.20312"><name>Domaine de la Haille</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.429102849" lon="-1.24013274908"><name>L'Asinerie de Pierretoun</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.4384524822" lon="0.0983345977783"><name>LA FERME DE BARBENEGRE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3573780966" lon="-1.55238479376"><name>Ferme SALABERRY</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4906559696" lon="-1.28845542669"><name>Ferme Les Acacias</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.54135" lon="-0.10047"><name>Château Ambe Tour Pourret</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.1262174563" lon="-0.212825238705"><name>Ferme le Hillot</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.0782825819" lon="0.832163393497"><name>Ferme du Couquet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6008958673" lon="1.23316437006"><name>Les Serres Dellarossa</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.735621552" lon="1.07214599848"><name>Ferme La Pointe</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9682236946" lon="-0.184071958065"><name>Château Garreau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.7293731253" lon="-0.449060797691"><name>Ferme  DE GARDELLY</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.7669857" lon="-0.7412196"><name>Ferme de lataste</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.699602" lon="-0.379991"><name>ferme du moulin de Labat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4720560425" lon="-0.564020976105"><name>Délices de veau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3551242738" lon="0.440400837979"><name>La Maison du Pruneau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.39907081" lon="0.92554718256"><name>La Boutique de Delphine </name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4338928462" lon="0.865122377872"><name>La Ferme du GAEC de la Croix de Balen</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4765581761" lon="0.0147011876106"><name>Les fraises de Sombrun</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.677296" lon="-0.324238"><name>Château du Payre</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.003341" lon="1.152571"><name>Elevage Roche</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.084133" lon="1.132362"><name>Ferme de Manestrugeas</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.702371" lon="0.439887"><name>Les folies chevrières</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.7161" lon="0.654445"><name>Domaine du Petit Batou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2954707463" lon="-0.107612907887"><name>Ferme Théas</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3820814144" lon="0.126034319401"><name>La Ferme de Cadix</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9363" lon="-0.03564"><name>Les Secrets de Tifayne</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.3322699874" lon="0.101851522923"><name>La ferme du porc sain</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9556300166" lon="0.659952163696"><name>Ferme de Pitrac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3911382852" lon="0.164690315723"><name>La Ferme du Bonheur</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5267300845" lon="-0.0228175520897"><name>Domaine Pichard</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.0725498632" lon="-0.796371996403"><name>Ferme NINETTE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1888193779" lon="0.206573009491"><name>Ferme des 4 Chemins</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.76234654" lon="0.519052222168"><name>La Ferme de Veyrines</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1883148299" lon="-0.643250048161"><name>La ferme BERGERAS</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.517381" lon="-0.565725"><name>Ferme la clé des champs</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.1234393444" lon="1.00158646703"><name>Ferme de La Hourque</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.435786" lon="0.770581"><name>Ferme de Boué</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5717" lon="-0.933333"><name>Domaine du Lisé</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1216504717" lon="0.992495119572"><name>Ferme des Bessous</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3417922" lon="0.9894993"><name>Fazillac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.0462484" lon="0.9791418"><name>Terre d'Escargots</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.307979055" lon="-0.565879940932"><name>Domaine de Mallarode</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.327876" lon="0.567896"><name>Famille Latapie</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.7749858" lon="0.0018383"><name>Ferme du Grand Juan</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.7797468" lon="0.4183409"><name>Domaine de Montlong</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.804371" lon="1.175167"><name>Earl Simon</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.391045" lon="-0.257667"><name>EARL de Puygareau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.367343" lon="-0.229779"><name>SCEA BORDE </name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.609354" lon="-0.101518"><name>Château Laffitte-Teston</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.681863" lon="0.594083"><name>Domaine du Tucoulet</name><desc>restauration, produits fermiers</desc></wpt>
+<wpt lat="43.816521" lon="-0.276687"><name>Domaine de Lassaubatju</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6162819946" lon="-1.20993445503"><name>Ferme Batis</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.65989" lon="-0.430972"><name>TURS'ANE</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.554125" lon="-1.308663"><name>ferme de maillocq</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.535618" lon="-1.269068"><name>Ferme Luheyte</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3216375069" lon="0.455589294434"><name>La Maison de la Noisette </name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="44.3270486397" lon="0.162107348442"><name>Château Moncassin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.697326" lon="-0.504661"><name>La Ferme d'Augerin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.135172" lon="0.974373"><name>Ferme La Métairie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.162953" lon="0.414674"><name>GAEC La ferme de Rémy</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1521525211" lon="1.14544540644"><name>Ferme de la Boussège</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.889509" lon="1.19493"><name>Le Pignier des Rhodes</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.534852" lon="-0.164744"><name>La Ferme LAGARDERE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4761468" lon="0.497573"><name>Au paradis des fruits</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1492192392" lon="-0.609140396118"><name>la ferme d'Olivier</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.322516" lon="0.753777"><name>EARL LABRUE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.54751" lon="0.347921"><name>Ferme Claudette et Claude Jocal</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="44.616272" lon="0.40426"><name>L'Oisonnière</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.57309" lon="-0.170159"><name>Château de Jayle</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.865647" lon="-0.468073"><name>Château Queyssard</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.255341" lon="0.069489"><name>Ferme Doussaint</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1352175616" lon="-0.0778680900364"><name>Ferme VIVES</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.324128" lon="0.190583"><name>EARL ROY</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.395563" lon="-0.207078"><name>Le Maine Laure</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.931237" lon="1.081328"><name>Ferme de la Gimone</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.540967" lon="0.774741"><name>Abbaye de Boulaur</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.230314" lon="1.195918"><name>Ferme Roulland</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.234425" lon="1.203273"><name>LA FERME DES VEYSSIERES - Sandra CHEVALIER LAGRAVE</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="45.356376" lon="-0.893274"><name>Château Vieux-Robin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5241713106" lon="0.363922119141"><name>Serres d'Ombreval</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.355723" lon="-0.056694"><name>EARL DU PERIOU - René Carré</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6996587088" lon="-0.906004961377"><name>FERME DANHIL</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5522805532" lon="0.0011157989502"><name>EARL de l'Ayza</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3405631389" lon="0.6591796875"><name>EARL des Terres Vieilles</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8086345515" lon="0.108318328857"><name>Moulin de Moustelat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.29387" lon="-0.89157"><name>Château les Marceaux</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.7938" lon="0.491406"><name>Christine BORGERS</name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.724718" lon="0.757838"><name>Invitation au délice</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.4109322991" lon="-0.0413296394256"><name>EARL GOBIN</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.323182" lon="-0.819114"><name>Château les Tuileries</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8672150847" lon="-0.0329375267029"><name>Château Ferrasse</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6769691704" lon="0.136781930923"><name>La p'tite confiote</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4872600089" lon="0.91746032238"><name>DOMAINE DE LAMOTHE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.591964693" lon="0.861922502518"><name>La ferme de FLECHOU</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.7617" lon="-0.788612"><name>LES CHEVRES DU PRINCE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.1672961497" lon="0.502386238098"><name>Chateau Sauvagnères EARL de Jayan</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.57385" lon="-0.111"><name>Château de l'Evêché</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.736951819" lon="-0.623929977417"><name>Le jardin de Berdin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3961713433" lon="0.533778429236"><name>Carl NAÏBO</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2516727602" lon="1.12787437439"><name>Au Clair de la Brune</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0995004699" lon="0.787426948547"><name>Vergers de Touticaut</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.1648004327" lon="1.15323734283"><name>Ferme de Saint Hubert</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3096778006" lon="-0.833844789062"><name>LA BRUYERE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2275499705" lon="0.821228027344"><name>Le Safran du Domaine Jagarens</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.420664" lon="0.258879"><name>Ferme Daleas</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4207594663" lon="-0.374908447266"><name>Les vergers de Sainte Quitterie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.304974" lon="0.698936"><name>Domaine de La Porte</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1378213496" lon="-0.490264892578"><name>léanor</name><desc>loisirs, produits fermiers</desc></wpt>
+<wpt lat="43.0915817558" lon="-1.42826557159"><name>la ferme Auzkia</name><desc>séjour, produits fermiers</desc></wpt>
+<wpt lat="43.08" lon="-0.21"><name>Ferme Peyhorgue</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1094535408" lon="-0.30770610508"><name>la ferme Pourtau</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.0836" lon="0.3091"><name>La ferme de Baptistou</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9346985313" lon="0.574695587158"><name>Les Croqueurs de Salades</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4074041959" lon="0.167686462402"><name>Gaec Irina</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1243725153" lon="0.94702911377"><name>Ferme du Tuzaguet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.9815" lon="-0.641327"><name>GELOUX</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0618" lon="-1.22601"><name>SAINT JULIEN EN BORN</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.1859" lon="-1.05765"><name>Marché des producteurs d'Hourtin 21 juillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5838" lon="-0.0888348"><name>Marché des Producteurs Gironde sur Dropt 15 juin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8863" lon="-0.50329"><name>MONT DE MARSAN </name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.7547" lon="-0.814447"><name>POYANNE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3287" lon="-1.03314"><name>Marché de Producteurs de Saint-Palais</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2718" lon="-0.244918"><name>Marché de Producteurs de Pays d'Artigueloutan</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3891" lon="-1.66164"><name>Marchés de Producteurs de Pays de Saint-Jean-De-Luz</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4732" lon="-0.927036"><name>Marché de Producteurs de Salies de Béarn</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2092" lon="-0.914432"><name>LABOUHEYRE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.684" lon="-0.745763"><name>NERBIS</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6838" lon="-1.22861"><name>SAINT GEOURS DE MAREMNE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3706" lon="-0.62923"><name>Marché des Producteurs de Pays</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.896" lon="-0.155475"><name>Marché de Saint-Emilion 23 juillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.1503" lon="-0.821955"><name>Marché de Saint-Laurent-Médoc 23 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5659" lon="-0.227599"><name>Marché de Saint-Macaire 19 juillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5659" lon="-0.227599"><name>Marché de Saint-Macaire 9 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8389" lon="0.21799"><name>Marché de Sainte-Foy-la-Grande 25 juillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4893601755" lon="0.114534535812"><name>Ferme Lalaque</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.299444" lon="0.338611"><name>La Petite Ferme</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3622776455" lon="-0.0827407836914"><name>CHAIS L </name><desc>séjour, restauration, produits fermiers</desc></wpt>
+<wpt lat="44.0442" lon="-0.531155"><name>BROCAS LES FORGES</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0335" lon="-0.910074"><name>MORCENX</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9439" lon="1.13389"><name>Marquay</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8989" lon="1.06462"><name>Meyrals</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.1562" lon="1.19159"><name>PEYRIGNAC</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.1409" lon="1.06991"><name>THENON</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5201" lon="0.0338989"><name>Marché de Meilhan-sur-Garonne</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6899" lon="0.326784"><name>Marché de Soumensac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2015" lon="0.612095"><name>Marché de Noël de la Chambre d'Agriculture d'Agen</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4466" lon="0.526448"><name>Marché de Monclar</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.0249" lon="0.714828"><name>VERGT</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8389" lon="0.21799"><name>Marché de Sainte-Foy-la-Grande 1er août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.2907" lon="0.276681"><name>Marché de Damazan</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.3965" lon="0.533879"><name>Marché de Fongrave</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4697" lon="0.730632"><name>Marché de La Sauvetat-sur-Lède</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.379" lon="0.525329"><name>Marché du Temple-sur-Lot</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9675913843" lon="-0.533941984177"><name>Château Madran</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.723521" lon="0.812479"><name>La Ferme d'Empluhaut</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.814" lon="-0.503427"><name>Marché de Bouliac 24 mai</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.9575" lon="-0.668323"><name>Marché du Pian-Médoc 14 juillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3088" lon="-0.937057"><name>Marché de Lesparre-Médoc 5 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.896" lon="-0.155475"><name>Marché de Saint-Emilion 6 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8863" lon="-0.503277"><name>MONT-DE-MARSAN</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.7111" lon="-0.838834"><name>MONTFORT EN CHALOSSE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8765" lon="-1.29995"><name>LEON</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5659" lon="-0.227599"><name>Marché de Verdelais 16 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0618" lon="-1.22601"><name>SAINT JULIEN EN BORN</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.59" lon="-0.748457"><name>AMOU Juillet </name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.7508" lon="-0.749704"><name>MUGRON</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6374" lon="-0.319413"><name>Marché de Cadillac 5 juillet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6374" lon="-0.319413"><name>Marché de Cadillac 23 août</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5417" lon="1.0756"><name>MONTCABRIER</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.5047" lon="1.18816"><name>Marché des Producteurs de Prayssac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.458" lon="-0.372664"><name>Marché de Villandraut 21 juin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3643" lon="0.647148"><name>Brantôme</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6826" lon="0.894322"><name>Monpazier</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.6574" lon="-0.590644"><name>HAGETMAU</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6441" lon="-0.98297"><name>Marché de Biganos le 29 juin</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3854" lon="0.698809"><name>Champagnac-de-Belair</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.1147" lon="1.19281"><name>Les Farges</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.2311" lon="0.609898"><name>La Chapelle Gonaguet</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.8894" lon="-0.304377"><name>VILLENEUVE DE MARSAN </name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0757" lon="0.521677"><name>Marché de Lamontjoie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4896" lon="-0.774935"><name>MPP d'Orthez</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1782" lon="-0.612"><name>MPP d'Oloron Sainte Marie</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.1763" lon="-0.259131"><name>MPP de NAY</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.5356" lon="-0.408335"><name>Marché de Producteurs de Pays de Arzacq</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3201" lon="-0.578055"><name>MPP DE MONEIN</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3681" lon="-0.346118"><name>MPP DE MONTARDON</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.4661" lon="-0.614952"><name>MPP D'ARTHEZ DE BEARN</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.2873" lon="-0.389972"><name>Marché de Producteur de Pays de Jurançon</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.0876" lon="0.219726"><name>Fédération Départementale des Chasseurs</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3452" lon="-0.262878"><name>Marché de Producteurs de Morlaas</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.3897" lon="-1.66089"><name>Marché de Producteurs de Pays de Saint Jean de Luz</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.0813" lon="1.18996"><name>Aubas</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.316" lon="0.33"><name>brie-sous-chalais </name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.241" lon="0.116"><name>Les Essards</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.6682" lon="1.10653"><name>Besse</name><desc>produits fermiers</desc></wpt>
+<wpt lat="45.3229" lon="0.75428"><name>Eyvirat</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.8354" lon="1.13571"><name>Beynac et Cazenac</name><desc>produits fermiers</desc></wpt>
+<wpt lat="44.4997" lon="1.13526"><name>PUY-L'EVEQUE</name><desc>produits fermiers</desc></wpt>
+<wpt lat="43.806737" lon="0.424601"><name>Le Panier des Jardins de Mesplès dans le Gers</name><desc>produits fermiers</desc></wpt>
+</gpx>

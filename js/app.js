@@ -4,11 +4,11 @@ var cdApp = angular.module('cdApp');
 cdApp.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
-            when('/admin/addProducer', {
-                templateUrl: 'partials/admin/producerForm.html',
+            when('/admin/ajouter', {
+                templateUrl: 'partials/producerAdd.html',
                 controller: 'AddProducerController'
             }).
-            when('/producers', {
+            when('/admin/producers', {
                 templateUrl: 'partials/list.html',
                 controller: 'ProducerListCtrl'
             }).
@@ -29,11 +29,6 @@ cdApp.config(['$routeProvider',
             }).
             when('/admin', {
                 templateUrl: 'partials/admin.html'
-            }).
-
-            when('/admin/addProducer', {
-                templateUrl: 'partials/admin/producerForm.html',
-                controller: 'AddProducerController'
             })
         .otherwise({redirectTo: '/map'});
 }]);
