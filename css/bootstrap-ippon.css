@@ -43,6 +43,7 @@ html {
 }
 body {
   margin: 0;
+  width: 100%;
 }
 a {
   background: transparent;
@@ -541,6 +542,7 @@ dt {
 dd {
   margin-left: 0;
 }
+
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
@@ -3470,6 +3472,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   left: auto;
 }
 @media (min-width: 768px) {
+	
   .nav-tabs.nav-justified > li {
     display: table-cell;
     width: 1%;
@@ -3767,6 +3770,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   line-height: 21px;
 }
 @media (max-width: 767px) {
+	.nav > li {
+	padding-bottom: 5px;}
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -4044,10 +4049,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
-.navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form {
-  border-color: #dda703;
-}
+
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
@@ -5972,4 +5974,100 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+
+@media (max-width: 768px){
+	
+	.logo{
+	 background-image:  url("../img/logo_ippon_mobile.png");
+	 background-size: 100% auto;
+    height: 32px;
+    width: 125px;
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px;
+	}
+	
+	.title{
+	    margin: 20px auto;
+	    width: 300px;
+	    text-align: center;
+	    color: #fff;
+	    background-color: #25afb5;
+	    padding: 5px;
+	    font-weight: bold;
+	    font-size: 1em;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 1000px){
+	
+	.logo{
+	 background-image:  url("../img/logo_ippon_mobile.png");
+	 background-size: 100% auto;
+    height: 32px;
+    width: 125px;
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px;
+	}
+	
+	.title{
+	    margin: 20px auto;
+	    width: 450px;
+	    text-align: center;
+	    color: #fff;
+	    background-color: #25afb5;
+	    padding: 5px;
+	    font-weight: bold;
+	    font-size: 1.5em;
+	}
+	
+}
+
+@media (min-width: 1001px){
+	
+		.logo{
+		 background-image:  url("../img/logo_ippon_desktop.png");
+		 background-size: 100% auto;
+	   	float: right;
+	    height: 64px;
+	    margin-right: 20px;
+	    margin-top: 20px;
+	    width: 179px;
+		}
+		.title{
+		margin: 20px auto;
+	    width: 605px;
+	    text-align: center;
+	    color: #fff;
+	    background-color: #25afb5;
+	    padding: 5px;
+	    font-weight: bold;
+	    font-size: 2em;
+	}
+}
+
+
+ .accounts-links, .friends-links {
+border-bottom: 1px solid #e5e5e5;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.accounts-links a, .friends-links a {
+padding-left: 12px;
+padding-right: 12px;
+color: #e5e5e5;
+text-decoration: none;
+}
+
+.main-footer {
+background-color: #ababab;
+color: #e5e5e5;
+font-size: 1em;
+text-align: center;
+margin-top: 20px;
 }
