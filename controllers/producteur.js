@@ -25,7 +25,7 @@ module.exports = function (eatLocalServer) {
         return next();
     });
 
-    eatLocalServer.post("/producteur/add", function(req, res, next) {
+    eatLocalServer.get("/producteur/add", function(req, res, next) {
         var person = new Producteur(JSON.parse(req.params.queryParams));
         person.save(function() {
             console.log("Saved : " + person);
