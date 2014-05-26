@@ -1,0 +1,44 @@
+[
+    {
+        "nom":"\u00a0L'Antan des\u00a0Saveurs ",
+        "adresse":"\u00a038 av cote d'argent\u003Cbr /\u003EBIGANOS, Aquitaine, FR\u003Cbr /\u003E05 56 03 14 67 ",
+        "latitude":44.638408,
+        "longitude":-0.966768,
+        "ouverture":[
+            {
+                "jour":"Lundi",
+                "heure_debut":"8h",
+                "heure_fin":"18h"
+            },
+            {
+                "jour":"Mardi",
+                "heure_debut":"8h",
+                "heure_fin":"18h"
+            },
+            {
+                "jour":"Vendredi",
+                "heure_debut":"8h",
+                "heure_fin":"18h"
+            }
+        ],
+        "categories":["Epicerie","Produits frais"]
+
+    },
+
+    {
+        "nom":"BIO PARME",
+        "adresse":"ZA de Parme\u003Cbr /\u003EANGLET, Aquitaine, FR",
+        "latitude":43.481705,
+        "longitude":-1.514707,
+        "ouverture":[
+            {
+                "jour":"Samedi",
+                "heure_debut":"8h",
+                "heur_fin":"12h"
+            }
+        ],
+        "categories":["Epicerie","Légumes","Fruits"]
+
+    }
+
+]
