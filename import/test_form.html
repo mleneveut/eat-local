@@ -4,9 +4,19 @@
         <title>Form title</title>
     </head>
     <body>
-	
-		<form method="post" action="http://localhost:8080/import">
-			<input type="text" name="url">
+        <form method="post" action="http://localhost:8080/import_magasins_json">
+            <label>Import Magasins JSON</label>
+            <input type="text" name="url" value="http://localhost:8080/magasins_et_marches.json">
+            <input type="submit" value="Submit">
+        </form>
+		<form method="post" action="http://localhost:8080/import_producteurs_json">
+            <label>Import producteurs JSON</label>
+			<input type="text" name="url" value="http://localhost:8080/producteurs.json">
+			<input type="submit" value="Submit">
+		</form>
+		<form method="post" action="http://localhost:8080/import_gpx">
+            <label>Import producteurs GPX</label>
+			<input type="text" name="url" value="http://localhost:8080/producteurs_ferme_vente_directe.gpx">
 			<input type="submit" value="Submit">
 		</form>
 	</body>

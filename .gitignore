@@ -2,3 +2,5 @@ AngularJs.iml
 Eat Local - NodeJS.iml
 node_modules/
 .project
+.idea
+*.iml

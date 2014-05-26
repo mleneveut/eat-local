@@ -1,0 +1,52 @@
+<div ng-include="navigation.html"></div>
+
+<div class="calendarNav tab-pane fade in active " id="local" ng-controller="ProducerSearchCtrl">
+
+    <fieldset>
+        <legend>Recherche de producteurs</legend>
+
+        <div class="row">
+            <div class="col-md-12">
+                <label class="col-md-2">Types de magasins</label>
+                <div class="col-md-10">
+                    <span ng-repeat="merchantType in merchantTypes">
+                        <input type="checkbox" ng-model="selectedMerchantType[merchantType]"/>
+                        <span>{{merchantType}}</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <label class="col-md-2">Types de produits</label>
+                <div class="col-md-10">
+                    <span ng-repeat="category in categories">
+                        <input type="checkbox" ng-model="selectedCategory[category]"/>
+                        <span>{{category}}</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label class="col-md-2">Jours d'Ouverture:</label>
+                <div class="col-md-9">
+                    <span ng-repeat="jour in semaine">
+                        <input type="checkbox" ng-model="selectedDays[jour.id]"/>
+                        <span>{{jour.label}}</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <!-- Combo type de commerce -->
+
+
+    <input type="button" value="Rechercher" ng-click="search()"/>
+
+    <!--<pre>{{selectedDays | json}}</pre>
+
+    <pre>{{selectedCategory | json}}</pre>-->
+    <leaflet center="center" markers="markers" defaults="defaults" height="480px" width="100%"></leaflet>
+
+    <input ng-model="searchAddress" type="text" placeholder="Type an address"/>
+</div>

@@ -26,18 +26,38 @@ var semaine = [
     {id:7,label:"dimanche"}];
 var categories = ["Fruits","Légumes","Truffes","Volailles"];
 var merchantTypes = ["Producteur", "Marché", "Magasin"];
-var producerControllers = angular.module('producerControllers', ['geolocation', 'leaflet-directive']);
+var producerControllers = angular.module('producerControllers', ['geolocation', 'leaflet-directive', 'ngTable']);
 
-producerControllers.controller('ProducerListCtrl',['$scope','$http',
-    function($scope,$http) {
-        $http.get({url: '/producteurs'}).
+producerControllers.controller('ProducerListCtrl',
+    function($scope, $http, $filter, ngTableParams) {
+        $http.get('/producteurs').
             success(function(data, status, headers, config) {
-                $scope.producers = data;
+                $scope.tableParams = new ngTableParams({
+                    page: 1,            // show first page
+                    count: 20,          // count per page
+                    sorting: {
+                        nom: 'asc'     // initial sorting
+                    }
+                }, {
+                    total: data.length, // length of data
+                    getData: function($defer, params) {
+                        // use build-in angular filter
+                        var filteredData = params.filter() ?
+                            $filter('filter')(data, params.filter()) :
+                            data;
+                        var orderedData = params.sorting() ?
+                            $filter('orderBy')(filteredData, params.orderBy()) :
+                            data;
+
+                        params.total(orderedData.length); // set total for recalc pagination
+                        $defer.resolve(orderedData.slice((params.page() - 1) * params.count(), params.page() * params.count()));
+                    }
+                });
             }).
             error(function(data, status, headers, config) {
                 $scope.producers = datas;
             });
-    }]);
+    });
 
 producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocation",
     function($scope,$http, geolocation) {
@@ -64,7 +84,7 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
 		}
 	    }
 	});
-	$scope.markers = new Array();
+	$scope.markers = [];
 
         geolocation.getLocation().then(function(data){
             $scope.center.lat = data.coords.latitude;
@@ -78,7 +98,7 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
             console.log($scope.selectedMerchantType);
             console.log($scope.selectedCategory);
 
-            $scope.markers = new Array();
+            $scope.markers = [];
             $scope.markers.push({
             lat: 44.8, // $lat
                     lng: -0.5, //$lng
@@ -116,7 +136,9 @@ producerControllers.controller('AddProducerController', ['$scope', '$http', '$ro
                               coordonnees: producteurCoordonnees};
 
             console.log(producteur);
-            $http.post({url: '/producteur/add', data: producteur}).
+            $http.post('/producteur/add', {
+                data: producteur
+            }).
                 success(function(data, status, headers, config) {
                     // success
                 }).

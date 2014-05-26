@@ -6,7 +6,6 @@ var restify = require('restify'),
 module.exports = function (eatLocalServer) {
 
     eatLocalServer.get("/producteurs", function(req, res, next) {
-        console.log("hey");
         Producteur.find(null, function(err, result) {
             if (err) {
                 res.send(err);
@@ -29,7 +28,7 @@ module.exports = function (eatLocalServer) {
         var person = new Producteur(JSON.parse(req.params.queryParams));
         person.save(function() {
             console.log("Saved : " + person);
-        })
+        });
 
         res.send(person);
         return next();
@@ -46,4 +45,4 @@ module.exports = function (eatLocalServer) {
 
         return next();
     });
-}
+};

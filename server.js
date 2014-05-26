@@ -11,9 +11,11 @@
  */
 var cmdlineEnv = process.argv[2];
 // if command line option given, override NODE_ENV
-console.log(cmdlineEnv)
+console.log(cmdlineEnv);
 if (cmdlineEnv && cmdlineEnv.length > 0) {
-    if (cmdlineEnv == '-d' || cmdlineEnv.toUpperCase() == '--DEVELOPMENT') {
+    if (cmdlineEnv == '-l' || cmdlineEnv.toUpperCase() == '--LOCALHOST') {
+        process.env.NODE_ENV = 'localhost';
+    } else if (cmdlineEnv == '-d' || cmdlineEnv.toUpperCase() == '--DEVELOPMENT') {
         process.env.NODE_ENV = 'development';
     } else if (cmdlineEnv == '-q' || cmdlineEnv.toUpperCase() == '--QA') {
         process.env.NODE_ENV = 'test';
@@ -88,7 +90,8 @@ var eatLocalServer = restify.createServer( {
 });
 eatLocalServer.use(restify.bodyParser());
 eatLocalServer.use(restify.queryParser());
-eatLocalServer.listen(80, function() {
+
+eatLocalServer.listen(8080, function() {
     console.log('%s listening at %s', eatLocalServer.name, eatLocalServer.url);
 });
 
@@ -98,3 +101,18 @@ fs.readdirSync(controller_path).forEach(function (file) {
     console.log("Loading controller " + file);
     require(controller_path + '/' + file) (eatLocalServer);
 });
+
+
+var staticPaths = [
+    '/',
+    '/js/.*',
+    '/css/.*',
+    '/img/.*',
+    '/fonts/.*',
+    '/partials/.*'
+].join('|');
+
+eatLocalServer.get(staticPaths, restify.serveStatic({
+    'directory': __dirname + '/public',
+    'default': 'index.html'
+}));

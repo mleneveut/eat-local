@@ -14,7 +14,8 @@ var server = restify.createServer({
 name: 'coding-dojo-restify'
 });
 
-var mongoclient = new MongoClient(new MongoServer("10.55.0.79", 27017, {native_parser: true}));
+//var mongoclient = new MongoClient(new MongoServer("10.55.0.79", 27017, {native_parser: true}));
+var mongoclient = new MongoClient(new MongoServer("127.0.0.1", 27017, {native_parser: true}));
 var producteurCollection;
 var marcheCollection;
 var magasinCollection;
@@ -24,7 +25,7 @@ mongoclient.open(function(err, mongoclient) {
 	console.log("DB => " + db);
 	
 	// Création de la collection producteur
-	var producteurCollectionName = "producteurs"
+	var producteurCollectionName = "producteurs";
 	console.log("Creating collection \"" + producteurCollectionName + "\"..."); 
 	db.createCollection(producteurCollectionName, function(err, r) {
 		console.log(producteurCollectionName + " already exists...");
@@ -32,7 +33,7 @@ mongoclient.open(function(err, mongoclient) {
 	producteurCollection = db.collection(producteurCollectionName);
 	
 	// Création de la collection marche
-	var marcheCollectionName = "marches"
+	var marcheCollectionName = "marches";
 	console.log("Creating collection \"" + marcheCollectionName + "\"..."); 
 	db.createCollection(marcheCollectionName, function(err, r) {
 		console.log(marcheCollectionName + " already exists...");
@@ -40,7 +41,7 @@ mongoclient.open(function(err, mongoclient) {
 	marcheCollection = db.collection(marcheCollectionName);
 	
 	// Création de la collection magasins
-	var magasinCollectionName = "magasins"
+	var magasinCollectionName = "magasins";
 	console.log("Creating collection \"" + magasinCollectionName + "\"..."); 
 	db.createCollection(magasinCollectionName, function(err, r) {
 		console.log(magasinCollectionName + " already exists...");
@@ -48,7 +49,7 @@ mongoclient.open(function(err, mongoclient) {
 	magasinCollection = db.collection(magasinCollectionName);
 	
 	// Création de la collection categorieProduits
-	var categorieProduitCollectionName = "categories_produits"
+	var categorieProduitCollectionName = "categories_produits";
 	console.log("Creating collection \"" + categorieProduitCollectionName + "\"..."); 
 	db.createCollection(categorieProduitCollectionName, function(err, r) {
 		console.log(categorieProduitCollectionName + " already exists...");
@@ -58,14 +59,14 @@ mongoclient.open(function(err, mongoclient) {
 
 server.use(restify.bodyParser());
 
-server.post('/import_producteurs_json', function(request, response) {
-	var url = request.body.substring(4);
+server.post('/import_producteurs_json', function(req, resp, next) {
+	var url = req.params.url;
 	console.log("URL = " + url);
 	
-	var fs = require('fs');
+	var request = require('request');
 
-	fs.readFile(url, 'utf8', function (err, data) {
-		var jsonProducers = JSON.parse(data);
+    request.get(url, function (error, response, body) {
+		var jsonProducers = JSON.parse(body);
 		
 		for(var i=0; i<jsonProducers.length; i++) {
 			var producer = jsonProducers[i];
@@ -78,6 +79,9 @@ server.post('/import_producteurs_json', function(request, response) {
 			jsonObject.coordonnees.latitude = producer.lat;
 			jsonObject.coordonnees.longitude = producer.lng;
 			jsonObject.statut = 'valide';
+
+            //var category = producer.category;
+            //categorieProduitCollection.find()
 			
 			producteurCollection.insert(jsonObject, function(err, r) {
 				if(err) {
@@ -86,17 +90,17 @@ server.post('/import_producteurs_json', function(request, response) {
 			});
 		}
 	});
-	return response;
+	return next();
 });
 
-server.post('/import_magasins_json', function(request, response) {
-	var url = request.body.substring(4);
+server.post('/import_magasins_json', function(req, resp, next) {
+	var url = req.params.url;
 	console.log("URL = " + url);
-	
-	var fs = require('fs');
 
-	fs.readFile(url, 'utf8', function (err, data) {
-		var jsonMagasins = JSON.parse(data);
+    var request = require('request');
+
+    request.get(url, function (error, response, body) {
+		var jsonMagasins = JSON.parse(body);
 		
 		var allCategoriesWithIds = [];
 		// Insertion de toutes les catégories dans la collection
@@ -185,26 +189,26 @@ server.post('/import_magasins_json', function(request, response) {
 			}
 		}
 	});
-	return response;
+	return next();
 });
 
 // GPX parsing using xml2js module 
-server.post('/import_gpx', function(request, response) {
-	var url = request.body.substring(4);
+server.post('/import_gpx', function(req, resp, next) {
+	var url = req.params.url;
 	console.log("URL = " + url);
 
-	var fs = require('fs');
+	var request = require('request');
 
 	//var isValidFile = isFileValid(url, "gpx");
 	//if(isValidFile) {
-		fs.readFile(url, 'utf8', function (err, data) {
+        request.get(url, function (error, response, body) {
 			if (err) {
 			  console.log('Error: ' + err);
 			  return;
 			}
 		  
 			var parseString = require('xml2js').parseString;
-			parseString(data,  function (err, result) {
+			parseString(body,  function (err, result) {
 				if(err) {
 					console.log("Error parsing..");
 				}
@@ -217,6 +221,7 @@ server.post('/import_gpx', function(request, response) {
 					jsonObject.nom = result.gpx.wpt[i].name[0];
 					jsonObject.description = result.gpx.wpt[i].desc[0];
 					jsonObject.statut = 'valide';
+
 					producteurCollection.insert(jsonObject, function(err, r) {
 						if(err) {
 							console.log("Error on inserting : " + err);
@@ -226,7 +231,7 @@ server.post('/import_gpx', function(request, response) {
 			});
 		});
 	//}
-	return response;
+	return next();
 });
 
 /* TODO : Corriger la fonction... */
@@ -243,3 +248,8 @@ function isFileValid(url, fileExtension) {
 server.listen(8080, function(){
 	console.log('%s listening at %s', server.name, server.url);
 });
+
+server.get('/.*', restify.serveStatic({
+    'directory': __dirname,
+    'default': 'test_form.html'
+}));
