@@ -30,7 +30,7 @@ var producerControllers = angular.module('producerControllers', ['geolocation', 
 
 producerControllers.controller('ProducerListCtrl',
     function($scope, $http, $filter, ngTableParams) {
-        $http.get('/producteurs').
+        $http.post('/api/search').
             success(function(data, status, headers, config) {
                 $scope.tableParams = new ngTableParams({
                     page: 1,            // show first page
