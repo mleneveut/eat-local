@@ -5,16 +5,27 @@ server = require '../app'
 connection = require '../configs/mongoose'
 mongoose = require 'mongoose'
 POI = mongoose.model 'POI'
+utilImport = require '../util/import-util'
 
+#
+# Datas
+#
 extensions = [
   '.json'
 ]
 
 types = [
-  'Producer'
   'Market'
   'Shop'
+  'Producer'
 ]
+
+defaultCategory = 'Misc'
+
+
+#
+# Routers
+#
 
 # Empties the database, and re-import all files in the data folder
 server.get '/import/full', (req, res, next) ->
@@ -49,17 +60,8 @@ server.post '/import/json', (req, res, next) ->
 # Reads a JSON object, transforms it into a POI then save it
 saveJsonPOI = (obj) ->
 
-  # Finds out object's type
-  if obj.user_id != null
-    type = types[0]
-  else if obj.category.indexOf('Marché') != -1
-    type = types[1]
-  else
-    type = types[2]
-
   # Actually creates the object
   poi = new POI()
-  poi.type = type
   poi.nom = obj.title
   poi.description = obj.description
   poi.coordonnees = [
@@ -67,13 +69,22 @@ saveJsonPOI = (obj) ->
     obj.lat
   ]
   poi.address = obj.address
-  poi.categories = obj.category.split ','
+  poi.phone = obj.address_object.phonenumber
 
-  # If object is-a market, then extrapolate the data to find out open days and hours
-  if type == types[1]
-    result = getDaysAndHours obj
-    console.log result
-    poi.ouverture = result
+  # Finds out object's type
+  if obj.category.indexOf('Marché') != -1
+    type = types[0]
+    # If object is-a market, then extrapolate the data to find out open days and hours
+    poi.ouverture = utilImport.getDaysAndHours obj
+    poi.categories = [defaultCategory]
+  else if obj.user_id == null
+    type = types[1]
+    poi.categories = utilImport.normalize(obj.category.split ',')
+  else
+    type = types[2]
+    poi.categories = utilImport.normalize(obj.category.split ',')
+
+  poi.type = type
 
   # Saves the object
   poi.save (err) ->
@@ -81,43 +92,3 @@ saveJsonPOI = (obj) ->
       console.log err
     else
       console.log 'Object save : ' + poi._id
-
-
-# Finds out open days and hours from JSON object
-getDaysAndHours = (obj) ->
-  result = []
-
-  # Remove spaces from the description, then find hours using regex
-  hours = (obj.description.replace /\s+/g, '').match /([0-9]+[h][0-9]*)/g
-
-  # If no hour could be found, add blank values
-  if hours == null
-    hours = [
-      ''
-      ''
-    ]
-
-  console.log obj.description + ' -> ' + hours
-
-  days = [
-    'lundi'
-    'mardi'
-    'mercredi'
-    'jeudi'
-    'vendredi'
-    'samedi'
-    'dimanche'
-  ]
-
-  # Looks in the category to find out any mention of a week's day
-  openedDays = days.filter (val) ->
-    (obj.category.indexOf val) != -1
-
-  # For each day found, creates an entry with the right hours
-  for openedDay in openedDays
-    result.push
-      jour: openedDay
-      heure_debut: hours[0]
-      heure_fin: hours[1]
-
-  result

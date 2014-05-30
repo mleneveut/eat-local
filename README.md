@@ -47,8 +47,21 @@ Le serveur NodeJs permet également de servir la partie cliente (Angular)
 ## APIs
 
 ### REST API
-**(POST) /api/search** : Retourne un tableau de POI (points of interest), filtré par un object JSON passé en paramètre.
-L'objet JSON en paramètre peut etre soit de la forme du modèle (voir _model/poi.coffee_), soit un objet _geo_ permettant
+- **(GET) /api/types** : Retourne la liste des types existants
+- **(GET) /api/categories** : Retourne la liste des catégories existants
+- **(GET) /api/days** : Retourne la liste des jours d'ouverture existants
+- **(POST) /api/search** : Retourne un tableau de POI (points of interest), filtré par un object JSON passé en paramètre.
+L'objet JSON en paramètre peut etre :
+ - soit de la forme du modèle (voir _model/poi.coffee_)
+ 
+```
+{
+    "type": 'Producer', // Search with exact value
+    "nom": /partial/i // Search with 'LIKE'-style value
+}
+```
+ 
+ - soit un objet _geo_ permettant
 de trouver les POIs proche d'un point géographique
 
 ```
@@ -62,5 +75,5 @@ de trouver les POIs proche d'un point géographique
 ```
 
 ### Misc API
-**(POST) /import/full** : Importe tous les fichiers de donnée du répertoire _data_ dans la base MongoDB. Supprime les anciennes entrées
-**(POST) /import/json** : Importe un fichier JSON dans la base MongoDB. Pour le format attendu, voir _data/*.json_
+- **(POST) /import/full** : Importe tous les fichiers de donnée du répertoire _data_ dans la base MongoDB. Supprime les anciennes entrées
+- **(POST) /import/json** : Importe un fichier JSON dans la base MongoDB. Pour le format attendu, voir _data/*.json_

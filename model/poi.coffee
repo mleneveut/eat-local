@@ -9,6 +9,7 @@ POISchema = mongoose.Schema
   description: String
   coordonnees: { type: [Number], index: '2dsphere', sparse: true } # [lng, lat]
   address: String
+  phone: String
   categories: [String]
   ouverture: [
     jour: String
