@@ -2,7 +2,7 @@
 cmdlineEnv = process.argv[2]
 if cmdlineEnv && cmdlineEnv.length > 0
     # if command line option given, override NODE_ENV
-    console.log cmdlineEnv
+    console.log 'Application arguments : ' + cmdlineEnv
     if cmdlineEnv == '-l' || cmdlineEnv.toUpperCase() == '--LOCALHOST'
         process.env.NODE_ENV = 'localhost'
     else if cmdlineEnv == '-d' || cmdlineEnv.toUpperCase() == '--DEVELOPMENT'
@@ -35,22 +35,23 @@ serverConfig =
         auto_reconnect: true
 
 mongoose.connect connectStr, serverConfig
-
-db = mongoose.connection
+connection = mongoose.connection
 
 # the reconnect seems to behave properly, but the link to this particular instance gets lost?
 # the reconnected and open don't work after a disconnect, although everything else seems to be working
 mongoose.connection.on 'opening', ->
     console.log "reconnecting... %d", mongoose.connection.readyState
-db.once 'open', ->
+connection.once 'open', ->
     console.log "Database connection opened."
-db.on 'error', (err) ->
+connection.on 'error', (err) ->
     console.log "DB Connection error %s", err
-db.on 'reconnected', ->
+connection.on 'reconnected', ->
     console.log 'MongoDB reconnected!'
-db.on 'disconnected', ->
+connection.on 'disconnected', ->
     console.log 'MongoDB disconnected!'
     mongoose.connect connectStr, serverConfig
 
 # Load models
 require '../model/poi'
+
+module.exports = connection

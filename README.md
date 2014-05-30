@@ -62,4 +62,5 @@ de trouver les POIs proche d'un point géographique
 ```
 
 ### Misc API
-**(POST) /import/json** : Import un fichier JSON dans la base MongoDB. Pour le format attendu, voir _data/*.json_
+**(POST) /import/full** : Importe tous les fichiers de donnée du répertoire _data_ dans la base MongoDB. Supprime les anciennes entrées
+**(POST) /import/json** : Importe un fichier JSON dans la base MongoDB. Pour le format attendu, voir _data/*.json_

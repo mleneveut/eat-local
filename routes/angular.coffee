@@ -12,5 +12,5 @@ staticPaths = [
 ].join '|'
 
 server.get staticPaths, restify.serveStatic
-  'directory': path.join __dirname, '/public'
-  'default': 'index.html'
+  directory: path.join __dirname, '..', '/public'
+  default: 'index.html'
