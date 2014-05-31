@@ -1,6 +1,7 @@
 # This controller handles file import (JSON, for example)
 path = require 'path'
 fs = require 'fs'
+{parseString} = require 'xml2js'
 server = require '../app'
 connection = require '../configs/mongoose'
 mongoose = require 'mongoose'
@@ -12,6 +13,8 @@ utilImport = require '../util/import-util'
 #
 extensions = [
   '.json'
+  '.gpx'
+  '.kml'
 ]
 
 types = [
@@ -35,25 +38,52 @@ server.get '/import/full', (req, res, next) ->
   fs.readdir dataFolder, (err, files) ->
     if err
       next err
-    console.log files
     files.forEach (file) ->
       if err
         next err
-      if file.indexOf extensions[0] != -1
+      if (file.indexOf extensions[0]) != -1
         fs.readFile (path.join dataFolder, file), (err, data) ->
           if err
             next err
           saveJsonPOI obj for obj in JSON.parse(data)
-          res.send 'Import done'
+      else if (file.indexOf extensions[1]) != -1
+        fs.readFile (path.join dataFolder, file), (err, data) ->
+          if err
+            next err
+          parseString data, (err, result) ->
+            saveGPXPOI obj for obj in result.gpx.wpt
+      else if (file.indexOf extensions[2]) != -1
+        fs.readFile (path.join dataFolder, file), (err, data) ->
+          if err
+            next err
+          parseString data, (err, result) ->
+            saveKMLPOI obj for obj in result.kml.Document[0].Placemark # Only one document present
+  res.send 'Import done'
 
 
 
 
-# Imports producers found in the request body (JSON)
+# Imports POIs found in the request body (JSON)
 server.post '/import/json', (req, res, next) ->
 
   saveJsonPOI obj for obj in req.body
   res.send 'Import done. See console for more info'
+  next()
+
+
+# Imports POIs found in the request body (gpx)
+server.post '/import/gpx', (req, res, next) ->
+  parseString req.body, (err, result) ->
+    saveGPXPOI obj for obj in result.gpx.wpt
+    res.send 'Import done. See console for more info'
+  next()
+
+
+# Imports POIs found in the request body (kml)
+server.post '/import/kml', (req, res, next) ->
+  parseString req.body, (err, result) ->
+    saveKMLPOI obj for obj in result.kml.Document.Placemark
+    res.send 'Import done. See console for more info'
   next()
 
 
@@ -90,5 +120,44 @@ saveJsonPOI = (obj) ->
   poi.save (err) ->
     if err
       console.log err
-    else
-      console.log 'Object save : ' + poi._id
+
+
+
+# Reads a GPX object, transforms it into a POI then save it
+saveGPXPOI = (obj) ->
+  # Actually creates the object
+  poi = new POI()
+  poi.type = types[1]
+  poi.nom = obj.name
+  poi.description = obj.desc
+  poi.coordonnees = [
+    obj.$.lon
+    obj.$.lat
+  ]
+
+  # Saves the object
+  poi.save (err) ->
+    if err
+      console.log err
+
+
+
+# Reads a KML object, transforms it into a POI then save it
+saveKMLPOI = (obj) ->
+  # Actually creates the object
+  poi = new POI()
+  poi.type = types[0]
+  poi.nom = obj.name
+  poi.description = obj.description
+
+  coordinates = obj.Point[0].coordinates[0].split ','
+
+  poi.coordonnees = [
+    coordinates[0]
+    coordinates[1]
+  ]
+
+  # Saves the object
+  poi.save (err) ->
+    if err
+      console.log err

@@ -19,6 +19,7 @@
         "morgan": "~1.0.0",
         "node-compass": "0.2.3",
         "restify": "~2.6.1",
-        "static-favicon": "~1.0.0"
+        "static-favicon": "~1.0.0",
+        "xml2js": "0.4.4"
     }
 }

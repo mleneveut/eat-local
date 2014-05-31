@@ -17,8 +17,6 @@ getDaysAndHours = (obj) ->
       ''
     ]
 
-  console.log obj.description + ' -> ' + hours
-
   days = [
     'lundi'
     'mardi'

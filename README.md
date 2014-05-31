@@ -61,8 +61,7 @@ L'objet JSON en paramètre peut etre :
 }
 ```
  
- - soit un objet _geo_ permettant
-de trouver les POIs proche d'un point géographique
+ - soit un objet _geo_ permettant de trouver les POIs proche d'un point géographique
 
 ```
 {
@@ -77,3 +76,5 @@ de trouver les POIs proche d'un point géographique
 ### Misc API
 - **(POST) /import/full** : Importe tous les fichiers de donnée du répertoire _data_ dans la base MongoDB. Supprime les anciennes entrées
 - **(POST) /import/json** : Importe un fichier JSON dans la base MongoDB. Pour le format attendu, voir _data/*.json_
+- **(POST) /import/kml** : Importe un fichier KML dans la base MongoDB. Pour le format attendu, voir _data/*.kml_
+- **(POST) /import/gpx** : Importe un fichier GPX dans la base MongoDB. Pour le format attendu, voir _data/*.gpx_
