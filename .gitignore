@@ -2,4 +2,3 @@ node_modules/
 .project
 .idea
 *.iml
-bin/

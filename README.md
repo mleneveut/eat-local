@@ -1,4 +1,4 @@
-eat-local
+Eat-local
 =========
 
 Trouvez les producteurs près de chez vous
@@ -18,12 +18,13 @@ Pour installer l'application NodeJs, commencez par récupérer les dépendences 
 ```
 $> cd <path_to_eat_local_folder>
 $> npm install
+$> sudo npm install coffee-script -g
 ```
 
 Pour lancer l'application, lancez la commande suivante :
 
 ```
-$> coffee app.coffee -l
+$> coffee bin/www.coffee -l
 ```
 
 L'option -l est utilisée pour indiquer à Node d'utiliser la configuration local, c'est à dire essentiellement de se
@@ -74,7 +75,7 @@ L'objet JSON en paramètre peut etre :
 ```
 
 ### Misc API
-- **(POST) /import/full** : Importe tous les fichiers de donnée du répertoire _data_ dans la base MongoDB. Supprime les anciennes entrées
+- **(GET) /import/full** : Importe tous les fichiers de donnée du répertoire _data_ dans la base MongoDB. Supprime les anciennes entrées
 - **(POST) /import/json** : Importe un fichier JSON dans la base MongoDB. Pour le format attendu, voir _data/*.json_
 - **(POST) /import/kml** : Importe un fichier KML dans la base MongoDB. Pour le format attendu, voir _data/*.kml_
 - **(POST) /import/gpx** : Importe un fichier GPX dans la base MongoDB. Pour le format attendu, voir _data/*.gpx_
