@@ -30,7 +30,7 @@ $> coffee bin/www.coffee -l
 L'option -l est utilisée pour indiquer à Node d'utiliser la configuration local, c'est à dire essentiellement de se
 connecter à la base de donnée locale (127.0.0.1)
 
-La page est alors accessible à l'URL [http://localhost:3000](http://localhost:3000)
+La page est alors accessible à l'URL [http://localhost:8080](http://localhost:8080)
 
 
 ## Description

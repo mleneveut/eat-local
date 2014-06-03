@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-debug = require 'debug'
 server = require '../app'
+config = require '../configs/config'
 
-server.listen process.env.PORT || 3000, ->
-  debug 'Restify server listening on ' + server.url
+server.listen config.port || 3000, ->
+  console.log 'Restify server listening on ' + server.url
