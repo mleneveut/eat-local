@@ -54,6 +54,6 @@ if cmdlineEnv && cmdlineEnv.length > 0
 
 # Load configurations
 path = require 'path'
-env = process.env.NODE_ENV || 'development'
+env = process.env.NODE_ENV || 'production'
 
 module.exports = configs[env]
