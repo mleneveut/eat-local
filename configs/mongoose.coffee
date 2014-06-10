@@ -9,6 +9,9 @@ serverConfig =
     server:
         auto_reconnect: true
 
+if config.debug
+  mongoose.set 'debug', true
+
 mongoose.connect connectStr, serverConfig
 connection = mongoose.connection
 

@@ -25,68 +25,6 @@ types = [
 
 defaultCategory = 'Misc'
 
-
-#
-# Routers
-#
-
-# Empties the database, and re-import all files in the data folder
-server.get '/import/full', (req, res, next) ->
-  connection.db.dropCollection 'pois'
-
-  dataFolder = 'data'
-  fs.readdir dataFolder, (err, files) ->
-    if err
-      next err
-    files.forEach (file) ->
-      if err
-        next err
-      if (file.indexOf extensions[0]) != -1
-        fs.readFile (path.join dataFolder, file), (err, data) ->
-          if err
-            next err
-          saveJsonPOI obj for obj in JSON.parse(data)
-      else if (file.indexOf extensions[1]) != -1
-        fs.readFile (path.join dataFolder, file), (err, data) ->
-          if err
-            next err
-          parseString data, (err, result) ->
-            saveGPXPOI obj for obj in result.gpx.wpt
-      else if (file.indexOf extensions[2]) != -1
-        fs.readFile (path.join dataFolder, file), (err, data) ->
-          if err
-            next err
-          parseString data, (err, result) ->
-            saveKMLPOI obj for obj in result.kml.Document[0].Placemark # Only one document present
-  res.send 'Import done'
-
-
-
-
-# Imports POIs found in the request body (JSON)
-server.post '/import/json', (req, res, next) ->
-
-  saveJsonPOI obj for obj in req.body
-  res.send 'Import done. See console for more info'
-  next()
-
-
-# Imports POIs found in the request body (gpx)
-server.post '/import/gpx', (req, res, next) ->
-  parseString req.body, (err, result) ->
-    saveGPXPOI obj for obj in result.gpx.wpt
-    res.send 'Import done. See console for more info'
-  next()
-
-
-# Imports POIs found in the request body (kml)
-server.post '/import/kml', (req, res, next) ->
-  parseString req.body, (err, result) ->
-    saveKMLPOI obj for obj in result.kml.Document.Placemark
-    res.send 'Import done. See console for more info'
-  next()
-
-
 # Reads a JSON object, transforms it into a POI then save it
 saveJsonPOI = (obj) ->
 
@@ -99,7 +37,7 @@ saveJsonPOI = (obj) ->
     obj.lat
   ]
   poi.address = obj.address
-  poi.phone = obj.address_object.phonenumber
+  poi.phone = obj.address_object.phonenumber.trim()
 
   # Finds out object's type
   if obj.category.indexOf('Marché') != -1
@@ -161,3 +99,58 @@ saveKMLPOI = (obj) ->
   poi.save (err) ->
     if err
       console.log err
+
+
+module.exports =
+  # Empties the database, and re-import all files in the data folder
+  fullImport: (req, res, next) ->
+    POI.find().remove().exec()
+
+    dataFolder = 'data'
+    fs.readdir dataFolder, (err, files) ->
+      if err
+        res.send err
+      files.forEach (file) ->
+        if err
+          res.send err
+        if (file.indexOf extensions[0]) != -1
+          fs.readFile (path.join dataFolder, file), (err, data) ->
+            if err
+              res.send err
+            saveJsonPOI obj for obj in JSON.parse(data)
+        else if (file.indexOf extensions[1]) != -1
+          fs.readFile (path.join dataFolder, file), (err, data) ->
+            if err
+              res.send err
+            parseString data, (err, result) ->
+              saveGPXPOI obj for obj in result.gpx.wpt
+        else if (file.indexOf extensions[2]) != -1
+          fs.readFile (path.join dataFolder, file), (err, data) ->
+            if err
+              res.send err
+            parseString data, (err, result) ->
+              saveKMLPOI obj for obj in result.kml.Document[0].Placemark # Only one document present
+    res.send 'Import done'
+    next()
+
+  # Imports POIs found in the request body (JSON)
+  importJSON: (req, res, next) ->
+    saveJsonPOI obj for obj in req.body
+    res.send 'Import done. See console for more info'
+    next()
+
+
+  # Imports POIs found in the request body (gpx)
+  importGPX: (req, res, next) ->
+    parseString req.body, (err, result) ->
+      saveGPXPOI obj for obj in result.gpx.wpt
+      res.send 'Import done. See console for more info'
+    next()
+
+
+  # Imports POIs found in the request body (kml)
+  importKML: (req, res, next) ->
+    parseString req.body, (err, result) ->
+      saveKMLPOI obj for obj in result.kml.Document.Placemark
+      res.send 'Import done. See console for more info'
+    next()

@@ -23,8 +23,17 @@ module.exports = server
 require path.join __dirname, 'configs', 'mongoose'
 
 # Load routes
-require path.join __dirname, 'routes', 'index'
-require path.join __dirname, 'routes', 'import'
+apiRoutes = require path.join __dirname, 'routes', 'api_poi'
+server.get '/pois/types', apiRoutes.findTypes
+server.get '/pois/categories', apiRoutes.findCategories
+server.get '/pois', apiRoutes.find
+
+importRoutes = require path.join __dirname, 'routes', 'import'
+server.get '/import/full', importRoutes.fullImport
+server.post '/import/json', importRoutes.importJSON
+server.post '/import/gpx', importRoutes.importGPX
+server.post '/import/kml', importRoutes.importKML
+
 require path.join __dirname, 'routes', 'angular'
 
 # Should be declared after restify roots (why ?)

@@ -48,17 +48,15 @@ Le serveur NodeJs permet également de servir la partie cliente (Angular)
 ## APIs
 
 ### REST API
-- **(GET) /api/types** : Retourne la liste des types existants
-- **(GET) /api/categories** : Retourne la liste des catégories existants
-- **(GET) /api/days** : Retourne la liste des jours d'ouverture existants
-- **(POST) /api/search** : Retourne un tableau de POI (points of interest), filtré par un object JSON passé en paramètre.
+- **(GET) /pois/types** : Retourne la liste des types existants
+- **(GET) /pois/categories** : Retourne la liste des catégories existants
+- **(GET) /pois** : Retourne un tableau de POI (points of interest), filtré par un object JSON construit avec les paramètres de la requête.
 L'objet JSON en paramètre peut etre :
  - soit de la forme du modèle (voir _model/poi.coffee_)
  
 ```
-{
-    "type": 'Producer', // Search with exact value
-    "nom": /partial/i // Search with 'LIKE'-style value
+url?type=Producer& // Search with exact value
+    nom=/partial/i // Search with 'LIKE'-style value
 }
 ```
  

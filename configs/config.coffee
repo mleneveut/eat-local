@@ -1,31 +1,35 @@
 configs =
   localhost:
-    port: "8080",
-    db_prefix: "mongodb",
-    db_host: "127.0.0.1",
-    db_port: "27017",
+    port: "8080"
+    db_prefix: "mongodb"
+    db_host: "127.0.0.1"
+    db_port: "27017"
     db_database: "eat-local"
+    debug: true
 
-  ,development:
-    port: "80",
-    db_prefix: "mongodb",
-    db_host: "10.55.0.79",
-    db_port: "27017",
+  development:
+    port: "80"
+    db_prefix: "mongodb"
+    db_host: "10.55.0.79"
+    db_port: "27017"
     db_database: "eat-local"
+    debug: true
 
-  ,test:
-    port: "80",
-    db_prefix: "mongodb",
-    db_host: "127.0.0.1",
-    db_port: "27017",
+  test:
+    port: "80"
+    db_prefix: "mongodb"
+    db_host: "127.0.0.1"
+    db_port: "27017"
     db_database: "eat-local"
+    debug: true
 
-  ,production:
-    port: "8080",
-    db_prefix: "mongodb",
-    db_host: "127.0.0.1",
-    db_port: "27017",
+  production:
+    port: "8080"
+    db_prefix: "mongodb"
+    db_host: "127.0.0.1"
+    db_port: "27017"
     db_database: "eat-local"
+    debug: false
 
 
 
