@@ -26,6 +26,9 @@ var semaine = [
     {id:7,label:"dimanche"}];
 var categories = ["Fruits","Légumes","Truffes","Volailles"];
 var merchantTypes = ["Producteur", "Marché", "Magasin"];
+
+var metersPerZoom = [156412, 78206, 39103, 19551, 9776, 4888, 2444, 1222, 610.984, 305.492, 152.746, 76.373, 38.187, 19093, 9.547, 4.773, 2.387, 1.193, 0.596, 0.298];
+
 var producerControllers = angular.module('producerControllers', ['geolocation', 'leaflet-directive', 'ngTable']);
 
 producerControllers.controller('ProducerListCtrl',
@@ -100,7 +103,9 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
 
             $scope.markers = [];
 
-            $http({method: 'GET', url: 'http://localhost:8082/pois?geo=1&geo_lat=44.837789&geo_lng=-0.57918&geo_dist=50000'}).
+            var dist = $scope.getRange();
+
+            $http({method: 'GET', url: 'http://localhost:8082/pois?geo=1&geo_lat='+$scope.center.lat+'&geo_lng='+$scope.center.lng+'&geo_dist='+dist}).
                 success(function(data, status, headers, config) {
                     if(data) {
                         for(var i = 0; i < data.length; i++) {
@@ -127,6 +132,11 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
                     alert('Erreur lors de la recherche : ' + status);
                 });
         };
+        $scope.getRange = function() {
+            var range = metersPerZoom[$scope.center.zoom] * 1300 / 2; //get map's width instead of 1300
+
+            return range;
+        }
         $scope.getIcon = function(cats) {
             var icon = 'img/divers.png';
             if(cats) {
