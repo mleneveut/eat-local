@@ -99,20 +99,89 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
             console.log($scope.selectedCategory);
 
             $scope.markers = [];
-            $scope.markers.push({
-            lat: 44.8, // $lat
-                    lng: -0.5, //$lng
-                    focus: false,
-                    message: "Hey, drag me if you want", // $popup_msg = title + '<br />' + description + '<br />' + address
-                    title: "Marker", // $title
-            icon: {
-                iconUrl: 'img/divers.png', // $category (here, the category is 'divers')
-                        shadowUrl: 'img/marker-shadow.png',
-                        iconSize:     [32, 42], // size of the icon
-                        iconAnchor:   [16, 42], // point of the icon which will correspond to marker's location
-                        popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
+
+            $http({method: 'GET', url: 'http://localhost:8082/pois?geo=1&geo_lat=44.837789&geo_lng=-0.57918&geo_dist=50000'}).
+                success(function(data, status, headers, config) {
+                    if(data) {
+                        for(var i = 0; i < data.length; i++) {
+                            var icon =  $scope.getIcon(data.categories);
+                            var msg =  $scope.constructInfoBulle(data[i]);
+                            $scope.markers.push({
+                                lat: data[i].coordonnees[1], // $lat
+                                lng: data[i].coordonnees[0], //$lng
+                                focus: false,
+                                message: msg, // $popup_msg = title + '<br />' + description + '<br />' + address
+                                title: data[i].nom, // $title
+                                icon: {
+                                    iconUrl: icon, // $category (here, the category is 'divers')
+                                    shadowUrl: 'img/marker-shadow.png',
+                                    iconSize: [32, 42], // size of the icon
+                                    iconAnchor: [16, 42], // point of the icon which will correspond to marker's location
+                                    popupAnchor: [0, -30] // point from which the popup should open relative to the iconAnchor
+                                }
+                            });
+                        }
+                    }
+                }).
+                error(function(data, status, headers, config) {
+                    alert('Erreur lors de la recherche : ' + status);
+                });
+        };
+        $scope.getIcon = function(cats) {
+            var icon = 'img/divers.png';
+            if(cats) {
+                for (var i = 0; i < cats.length; i++) {
+                    switch (cats[i]) {
+                        case 'Porc':
+                        case 'Bovin':
+                        case 'Brebis':
+                            icon = 'img/viande.png';
+                            break;
+                        case 'Epicerie':
+                            icon = 'img/magasin2.png';
+                            break;
+                        case 'Produits frais':
+                            icon = 'img/legumes.png';
+                            break;
+                    }
+                }
             }
-            });
+            return icon;
+        };
+
+        $scope.constructInfoBulle = function(data) {
+            var msg = '';
+            var newLine = '<br />';
+            var previous = false;
+            if(data.nom) {
+                if(previous) {
+                    msg += newLine;
+                }
+                msg += data.nom;
+                previous = true;
+            }
+            if(data.description) {
+                if(previous) {
+                    msg += newLine;
+                }
+                msg += data.description;
+                previous = true;
+            }
+            if(data.address) {
+                if(previous) {
+                    msg += newLine;
+                }
+                msg += data.address;
+                previous = true;
+            }
+            if(data.phone) {
+                if(previous) {
+                    msg += newLine;
+                }
+                msg += data.phone;
+                previous = true;
+            }
+            return msg;
         };
     }]);
 
@@ -150,3 +219,4 @@ producerControllers.controller('AddProducerController', ['$scope', '$http', '$ro
             $location.path('/');
         }
     }]);
+
