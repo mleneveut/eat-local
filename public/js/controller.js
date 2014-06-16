@@ -105,7 +105,7 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
 
             var dist = $scope.getRange();
 
-            $http({method: 'GET', url: 'http://localhost:8082/pois?geo=1&geo_lat='+$scope.center.lat+'&geo_lng='+$scope.center.lng+'&geo_dist='+dist}).
+            $http({method: 'GET', url: 'http://coding-dojo.ippon-technologies.net/pois?geo=1&geo_lat='+$scope.center.lat+'&geo_lng='+$scope.center.lng+'&geo_dist='+dist}).
                 success(function(data, status, headers, config) {
                     if(data) {
                         for(var i = 0; i < data.length; i++) {
