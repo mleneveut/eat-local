@@ -1,0 +1,11 @@
+<div ng-include="navigation.html"></div>
+
+<form name="reportForm" ng-controller="ReportErrorCtrl" role="form" ng-submit="submit()">
+    <label>Id : {{poiId}}</label><br>
+
+    <label>Signalez l'erreur :</label><br>
+    <textarea class="form-control" ng-model="errorMessage" required> </textarea>
+
+    <button type="submit" class="btn btn-default">Reporter l'erreur</button>
+</form>
+

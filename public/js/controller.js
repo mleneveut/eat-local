@@ -191,6 +191,9 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
                 msg += data.phone;
                 previous = true;
             }
+            msg += newLine;
+            msg += newLine;
+            msg += '<a href="#reportError/'+data._id+'">Signaler une erreur</a>';
             return msg;
         };
     }]);
@@ -200,7 +203,7 @@ producerControllers.controller('ProducerDetailCtrl',['$scope','$routeParams',
         $scope.producers = datas[$routeParams.id];
     }]);
 
-producerControllers.controller('AddProducerController', ['$scope', '$http', '$routeParams', '$location',
+producerControllers.controller('AddProducerCtrl', ['$scope', '$http', '$routeParams', '$location',
     function($scope,  $http, $routeParams, $location) {
 
         $scope.addProducer = function($routeParams){
@@ -230,3 +233,12 @@ producerControllers.controller('AddProducerController', ['$scope', '$http', '$ro
         }
     }]);
 
+producerControllers.controller('ReportErrorCtrl', ['$scope', '$http', '$routeParams', '$location',
+    function($scope,  $http, $routeParams, $location) {
+        $scope.poiId = $routeParams.poiId;
+
+        $scope.submit = function() {
+            alert($scope.poiId);
+            alert($scope.errorMessage);
+        };
+    }]);

@@ -6,7 +6,7 @@ cdApp.config(['$routeProvider',
         $routeProvider.
             when('/admin/ajouter', {
                 templateUrl: 'partials/producerAdd.html',
-                controller: 'AddProducerController'
+                controller: 'AddProducerCtrl'
             }).
             when('/admin/producers', {
                 templateUrl: 'partials/list.html',
@@ -29,6 +29,10 @@ cdApp.config(['$routeProvider',
             }).
             when('/admin', {
                 templateUrl: 'partials/admin.html'
+            }).
+            when('/reportError/:poiId', {
+                templateUrl: 'partials/reportError.html',
+                controller: 'ReportErrorCtrl'
             })
         .otherwise({redirectTo: '/map'});
 }]);
