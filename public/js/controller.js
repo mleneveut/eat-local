@@ -60,10 +60,16 @@ producerControllers.controller('ProducerListCtrl',
             error(function(data, status, headers, config) {
                 $scope.producers = datas;
             });
-    });
+    }
+);
 
 producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocation",
     function($scope,$http, geolocation) {
+
+        var firstSearch = true;
+        var lastZoom = 0;
+        var lastLat = 0;
+
         $scope.semaine = semaine;
         $scope.categories = categories
         $scope.merchantTypes = merchantTypes;
@@ -73,45 +79,54 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
         $scope.selectedMerchantType = {};
 
         angular.extend($scope, {
-	    center: {
-		lat: 44.5,
-		lng: -0.2,
-		zoom: 8
-	    },
-	    defaults: {
-		tileLayer: "http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg",
-		tileLayerOptions: {
-		    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://cloudmade.com">CloudMade</a>',
-		    maxZoom: 18,
-		    subdomains: "1234"
-		}
-	    }
-	});
-	$scope.markers = [];
+            center: {
+                lat: 44.5,
+                lng: -0.2,
+                zoom: 8
+            },
+            defaults: {
+                tileLayer: "http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg",
+                tileLayerOptions: {
+                    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://cloudmade.com">CloudMade</a>',
+                    maxZoom: 18,
+                    subdomains: "1234"
+                }
+            }
+	    });
+        $scope.markers = [];
+
+        var firstSearch = true;
+        var lastZoom = $scope.center.zoom;
+        var lastLat = $scope.center.lat;
 
         geolocation.getLocation().then(function(data){
             $scope.center.lat = data.coords.latitude;
             $scope.center.lng = data.coords.longitude;
             $scope.center.zoom= 14;
+            lastZoom = $scope.center.zoom;
+            lastLat = $scope.center.lat;
         });
+
+        $scope.removePoints = function() {
+            $scope.markers = [];
+            //for (var i=$scope.markers.length; i>=0; i--)
+            //    $scope.markers.pop();
+        };
 
         $scope.search = function(){
             var queryParams;
-            console.log($scope.selectedDays);
-            console.log($scope.selectedMerchantType);
-            console.log($scope.selectedCategory);
-
-            $scope.markers = [];
 
             var dist = $scope.getRange();
 
-            $http({method: 'GET', url: 'http://coding-dojo.ippon-technologies.net/pois?geo=1&geo_lat='+$scope.center.lat+'&geo_lng='+$scope.center.lng+'&geo_dist='+dist}).
+            $http({method: 'GET', url: '/pois?geo=1&geo_lat='+$scope.center.lat+'&geo_lng='+$scope.center.lng+'&geo_dist='+dist}).
                 success(function(data, status, headers, config) {
+                    $scope.markers = [];
                     if(data) {
                         for(var i = 0; i < data.length; i++) {
                             var icon =  $scope.getIcon(data.categories);
                             var msg =  $scope.constructInfoBulle(data[i]);
                             $scope.markers.push({
+                                group: 'center',
                                 lat: data[i].coordonnees[1], // $lat
                                 lng: data[i].coordonnees[0], //$lng
                                 focus: false,
@@ -127,13 +142,40 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
                             });
                         }
                     }
+                    if(firstSearch) {
+                        firstSearch = false;
+
+                        //register to events here otherwise search fired 4 times at first load
+                        $scope.$watch("center.zoom", function(zoom) {
+                            if($scope.center.zoom != lastZoom) {
+                                lastZoom = $scope.center.zoom;
+                                $scope.search();
+                            }
+                        });
+
+                        $scope.$watch("center.lat", function(zoom) {
+                            if($scope.center.lat != lastLat) {
+                                lastLat = $scope.center.lat;
+                                $scope.search();
+                            }
+                        });
+
+                        $scope.$on("leafletDirectiveMap.dragend", function(zoom) {
+                            $scope.removePoints();
+                        });
+
+                        $scope.$on("leafletDirectiveMap.zoomstart", function(zoom) {
+                            $scope.removePoints();
+                        });
+                    }
                 }).
                 error(function(data, status, headers, config) {
                     alert('Erreur lors de la recherche : ' + status);
                 });
         };
+
         $scope.getRange = function() {
-            var range = metersPerZoom[$scope.center.zoom] * 1300 / 2; //get map's width instead of 1300
+            var range = metersPerZoom[$scope.center.zoom] * 480 / 2; //get map's height instead of 1300
 
             return range;
         }
@@ -196,12 +238,14 @@ producerControllers.controller('ProducerSearchCtrl',['$scope','$http', "geolocat
             msg += '<a href="#reportError/'+data._id+'">Signaler une erreur</a>';
             return msg;
         };
-    }]);
+    }]
+);
 
 producerControllers.controller('ProducerDetailCtrl',['$scope','$routeParams',
     function($scope,$routeParams) {
         $scope.producers = datas[$routeParams.id];
-    }]);
+    }]
+);
 
 producerControllers.controller('AddProducerCtrl', ['$scope', '$http', '$routeParams', '$location',
     function($scope,  $http, $routeParams, $location) {
@@ -220,7 +264,7 @@ producerControllers.controller('AddProducerCtrl', ['$scope', '$http', '$routePar
             console.log(producteur);
             $http.post('/producteur/add', {
                 data: producteur
-            }).
+                }).
                 success(function(data, status, headers, config) {
                     // success
                 }).
@@ -231,7 +275,8 @@ producerControllers.controller('AddProducerCtrl', ['$scope', '$http', '$routePar
             //datas.push({id: datas[2].id + 1, name: $scope.newProducer.name, type: $scope.newProducer.type});
             $location.path('/');
         }
-    }]);
+    }]
+);
 
 producerControllers.controller('ReportErrorCtrl', ['$scope', '$http', '$routeParams', '$location',
     function($scope,  $http, $routeParams, $location) {
@@ -241,4 +286,5 @@ producerControllers.controller('ReportErrorCtrl', ['$scope', '$http', '$routePar
             alert($scope.poiId);
             alert($scope.errorMessage);
         };
-    }]);
+    }]
+);
