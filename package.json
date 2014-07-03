@@ -8,16 +8,18 @@
         "url": "https://github.com/mleneveut/eat-local.git"
     },
     "scripts": {
-        "start": "node ./bin/www"
+        "start": "coffee ./bin/www.coffee"
     },
     "dependencies": {
         "async": "~0.9.0",
+        "bluebird": "~2.1.3",
         "coffee-script": "~1.7.1",
         "debug": "~0.7.4",
         "jade": "~1.3.0",
         "mongoose": "~3.8.4",
         "morgan": "~1.0.0",
         "node-compass": "0.2.3",
+        "node-geocoder": "~2.5.0",
         "restify": "~2.6.1",
         "static-favicon": "~1.0.0",
         "xml2js": "0.4.4"

@@ -26,6 +26,8 @@ module.exports =
   #   - geo_dist: <Number (in meters)>
   #
   find: (req, res, next) ->
-    POI.find(apiUtil.processSearchRequest req).lean().exec (err, results) ->
-      res.send err || results
-    next()
+    apiUtil.processSearchRequest(req).then (searchParams) ->
+      POI.find(searchParams).lean().exec (err, results) ->
+        res.send err || results
+      .then (res) ->
+        next()
