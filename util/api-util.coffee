@@ -57,6 +57,8 @@ module.exports =
       # Because this is easier to handle that this way (callback nightmare)
       locAddr = req.params.locAddr
       delete req.params.locAddr
+      delete req.params.limit
+      delete req.params.page
 
       # Transform address in coordinates (if provided)
       geoLoc(req, locAddr).then ->

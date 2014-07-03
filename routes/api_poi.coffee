@@ -24,10 +24,21 @@ module.exports =
   #   - geo_lng: <Double>,
   #   - geo_lat: <Double>,
   #   - geo_dist: <Number (in meters)>
+  # - a pagination :
+  #   - limit: max number of results
+  #   - page: the page to display (begins at 1)
   #
   find: (req, res, next) ->
+    pagination = {}
+
+    if req.params.limit
+      pagination.limit = req.params.limit;
+
+      if req.params.page
+        pagination.skip = (req.params.page - 1) * pagination.limit
+
     apiUtil.processSearchRequest(req).then (searchParams) ->
-      POI.find(searchParams).lean().exec (err, results) ->
+      POI.find(searchParams, null, pagination).lean().exec (err, results) ->
         res.send err || results
       .then (res) ->
         next()

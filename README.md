@@ -51,8 +51,8 @@ Le serveur NodeJs permet également de servir la partie cliente (Angular)
 - **(GET) /pois/types** : Retourne la liste des types existants
 - **(GET) /pois/categories** : Retourne la liste des catégories existants
 - **(GET) /pois** : Retourne un tableau de POI (points of interest), filtré par un object JSON construit avec les paramètres de la requête.
-L'objet JSON en paramètre peut etre :
- - soit de la forme du modèle (voir _model/poi.coffee_)
+Les paramètres de la requête peuvent-être une combinaison de :
+ - n'importe quel attribut du modèle (voir _model/poi.coffee_)
  
 ```
 url?type=Producer& // Search with exact value
@@ -60,16 +60,14 @@ url?type=Producer& // Search with exact value
 }
 ```
  
- - soit un objet _geo_ permettant de trouver les POIs proche d'un point géographique
+ - soit des paramètres _geo_ permettant de trouver les POIs proche d'un point géographique
 
 ```
-{
-    geo: {
-        lng: <longitude>,
-        lat: <latitude>,
-        dist: <distance in meters>
-    }
-}
+geo=1 pour activer la recherche
+geo_lng : pour la longitude
+geo_lat : pour la latitude
+geo_dist : pour la distance (en metres)
+locAddr : pour une adresse de point d'origine de la geoloc. L'adresse est résolue automatiquement, et rempli les 3 paramètres précédents
 ```
 
 ### Misc API
