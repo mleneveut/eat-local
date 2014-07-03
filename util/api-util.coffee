@@ -47,7 +47,7 @@ module.exports =
       searchParams = {}
 
       if Object.keys(req.params).length == 0
-        return searchParams # No need further processing
+        return fulfill searchParams # No need further processing
 
       searchParams.$and = []
 
